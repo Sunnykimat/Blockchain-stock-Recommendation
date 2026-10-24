@@ -13,8 +13,10 @@ import {
   marketOverview,
 } from "../utils/mockData";
 
-// Backend API Base URL
-const BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5000/api";
+// Backend API Base URL (defaults to /api in production on Vercel, or localhost in dev)
+const BASE_URL =
+  import.meta.env.VITE_API_URL ||
+  (import.meta.env.PROD ? "/api" : "http://localhost:5000/api");
 
 // Axios client pre-configured with authentication header
 export const apiClient = axios.create({

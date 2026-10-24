@@ -707,11 +707,15 @@ app.get("/api/health", (req, res) => {
   });
 });
 
-app.listen(PORT, () => {
-  console.log(`=======================================================`);
-  console.log(`🚀 SecureStock AI Backend Service running on port ${PORT}`);
-  console.log(`🔑 Unified Single Login: admin@securestock.ai | admin123`);
-  console.log(`🔗 Health Check: http://localhost:${PORT}/api/health`);
-  console.log(`🌐 Live Market Feed & Blockchain Oracle Active`);
-  console.log(`=======================================================`);
-});
+if (!process.env.VERCEL) {
+  app.listen(PORT, () => {
+    console.log(`=======================================================`);
+    console.log(`🚀 SecureStock AI Backend Service running on port ${PORT}`);
+    console.log(`🔑 Unified Single Login: admin@securestock.ai | admin123`);
+    console.log(`🔗 Health Check: http://localhost:${PORT}/api/health`);
+    console.log(`🌐 Live Market Feed & Blockchain Oracle Active`);
+    console.log(`=======================================================`);
+  });
+}
+
+export default app;
