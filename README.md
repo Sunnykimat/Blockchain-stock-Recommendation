@@ -186,29 +186,3 @@ Run the end-to-end authentication and security test:
 ```bash
 node backend/test-auth.js
 ```
-
----
-
-## 🚀 Deployment on Vercel
-
-The project is fully pre-configured for **1-click continuous deployment on Vercel** (both the React frontend and Express serverless backend).
-
-### Option 1: Automatic Deployment via Vercel Dashboard (Recommended)
-
-1. Open [vercel.com](https://vercel.com) and log in with your GitHub account.
-2. Click **"Add New..."** > **"Project"**.
-3. Select your repository: `Blockain-Enabled-Secure-stock-recommendation-System`.
-4. Keep the default settings (the included `vercel.json` automatically configures the build command, output directory `securestock-ai/dist`, and `/api/*` serverless routes).
-5. (Optional) Add any custom environment variables:
-   - `JWT_SECRET`: (Optional, random secret string)
-   - `CONTRACT_ADDRESS`: (Optional, Ethereum contract address)
-6. Click **"Deploy"**!
-
-### Option 2: Deploy using Vercel CLI
-
-```bash
-npm i -g vercel
-vercel
-```
-
-All requests to `/` will load the React UI, while all requests to `/api/*` will automatically route to the Express serverless API.
