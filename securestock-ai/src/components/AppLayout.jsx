@@ -6,6 +6,7 @@ import React, { useState } from "react";
 import { Outlet } from "react-router-dom";
 import Sidebar from "./Sidebar";
 import Navbar from "./Navbar";
+import LiveBackendStatusBox from "./LiveBackendStatusBox";
 
 export default function AppLayout() {
   const [sidebarOpen, setSidebarOpen] = useState(true);
@@ -21,12 +22,12 @@ export default function AppLayout() {
 
         {/* Page content */}
         <main className="flex-1 overflow-y-auto p-6" style={{ background: "var(--obsidian-950)" }}>
-          {/* Subtle mesh background */}
+          {/* Subtle electric emerald mesh background */}
           <div
             className="fixed inset-0 pointer-events-none"
             style={{
               background:
-                "radial-gradient(ellipse at 10% 20%, rgba(0,255,209,0.03) 0%, transparent 50%), radial-gradient(ellipse at 90% 80%, rgba(0,100,80,0.05) 0%, transparent 50%)",
+                "radial-gradient(circle at 50% 0%, rgba(0, 230, 118, 0.08) 0%, transparent 50%), radial-gradient(circle at 90% 90%, rgba(16, 185, 129, 0.04) 0%, transparent 40%), radial-gradient(circle at 10% 80%, rgba(255, 255, 255, 0.015) 0%, transparent 35%)",
               zIndex: 0,
             }}
           />
@@ -35,6 +36,9 @@ export default function AppLayout() {
           </div>
         </main>
       </div>
+
+      {/* Floating Live System Information Box */}
+      <LiveBackendStatusBox />
     </div>
   );
 }

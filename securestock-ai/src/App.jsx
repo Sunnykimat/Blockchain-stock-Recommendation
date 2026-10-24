@@ -1,8 +1,8 @@
 // ─────────────────────────────────────────────
-//  App.jsx – Root component with React Router
+//  App.jsx – Root component with React Router & AuthContext
 // ─────────────────────────────────────────────
-import React, { useState } from "react";
-import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
+import React, { useState, useEffect } from "react";
+import { BrowserRouter, Routes, Route, Navigate, useLocation } from "react-router-dom";
 
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
@@ -14,27 +14,71 @@ import BlockchainVerify from "./pages/BlockchainVerify";
 import History from "./pages/History";
 import Settings from "./pages/Settings";
 import AppLayout from "./components/AppLayout";
+import { fetchCurrentUser, logoutUser } from "./services/api";
 
-// Simple auth context via local state (replace with real auth in production)
 export const AuthContext = React.createContext(null);
+
+function ProtectedLayout({ isAuthenticated }) {
+  const location = useLocation();
+  if (!isAuthenticated) {
+    return <Navigate to="/login" state={{ from: location }} replace />;
+  }
+  return <AppLayout />;
+}
 
 export default function App() {
   const [isAuthenticated, setIsAuthenticated] = useState(
     () => !!localStorage.getItem("ss_token")
   );
 
-  const login = (token) => {
+  const [user, setUser] = useState(() => {
+    const cached = localStorage.getItem("ss_user");
+    return cached ? JSON.parse(cached) : null;
+  });
+
+  // Fetch full user identity on mount if token exists
+  useEffect(() => {
+    if (isAuthenticated) {
+      fetchCurrentUser().then((userData) => {
+        if (userData) {
+          setUser(userData);
+          localStorage.setItem("ss_user", JSON.stringify(userData));
+        } else {
+          setIsAuthenticated(false);
+        }
+      });
+    }
+  }, [isAuthenticated]);
+
+  const login = (token, userData) => {
     localStorage.setItem("ss_token", token);
+    if (userData) {
+      localStorage.setItem("ss_user", JSON.stringify(userData));
+      setUser(userData);
+    }
     setIsAuthenticated(true);
   };
 
-  const logout = () => {
+  const logout = async () => {
+    try {
+      await logoutUser();
+    } catch {
+      // Ignore network errors on logout
+    }
     localStorage.removeItem("ss_token");
+    localStorage.removeItem("ss_user");
+    setUser(null);
     setIsAuthenticated(false);
   };
 
+  const updateUser = (updatedData) => {
+    const updated = { ...user, ...updatedData };
+    setUser(updated);
+    localStorage.setItem("ss_user", JSON.stringify(updated));
+  };
+
   return (
-    <AuthContext.Provider value={{ isAuthenticated, login, logout }}>
+    <AuthContext.Provider value={{ isAuthenticated, user, login, logout, updateUser }}>
       <BrowserRouter>
         <Routes>
           {/* Public routes */}
@@ -45,7 +89,7 @@ export default function App() {
           {/* Protected routes wrapped in AppLayout */}
           <Route
             path="/"
-            element={isAuthenticated ? <AppLayout /> : <Navigate to="/login" />}
+            element={<ProtectedLayout isAuthenticated={isAuthenticated} />}
           >
             <Route index element={<Navigate to="/dashboard" />} />
             <Route path="dashboard" element={<Dashboard />} />

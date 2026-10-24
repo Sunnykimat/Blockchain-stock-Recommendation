@@ -1,0 +1,3630 @@
+{
+  "users": [
+    {
+      "id": "usr_master",
+      "name": "Sunny Kumar",
+      "email": "admin@securestock.ai",
+      "password": "admin123",
+      "role": "Lead Blockchain & AI Analyst",
+      "plan": "Pro Enterprise",
+      "avatar": null,
+      "walletAddress": "0x71C638a1498B1a9F4770e28f244199B99E981e4b",
+      "smartContractAccess": "Full Master Access",
+      "joinDate": "2024-01-15",
+      "security": {
+        "twoFactorEnabled": false,
+        "sessionLogs": true,
+        "apiKey": "sk-ss-live-175825ae1a82add3585cedf93e5e10d3"
+      },
+      "notificationsConfig": {
+        "email": true,
+        "push": true,
+        "recommendations": true,
+        "blockchain": true,
+        "alerts": true
+      },
+      "portfolio": [
+        {
+          "symbol": "NVDA",
+          "name": "NVIDIA Corp.",
+          "shares": 35,
+          "avgPrice": 720.5,
+          "currentPrice": 880
+        },
+        {
+          "symbol": "MSFT",
+          "name": "Microsoft Corp.",
+          "shares": 50,
+          "avgPrice": 390,
+          "currentPrice": 415
+        },
+        {
+          "symbol": "AAPL",
+          "name": "Apple Inc.",
+          "shares": 60,
+          "avgPrice": 165.2,
+          "currentPrice": 170
+        }
+      ],
+      "watchlist": [
+        "NVDA",
+        "MSFT",
+        "AAPL",
+        "GOOGL",
+        "META"
+      ]
+    },
+    {
+      "id": "usr_1792844382305",
+      "name": "Alice Trader",
+      "email": "trader_1792844381857@example.com",
+      "password": "$2b$12$ZfS2Bye7sohBWIwfNRc6U.tzVQy3D4M6RTRgi5wQlGKhApS5KJKZu",
+      "role": "Standard Investor",
+      "plan": "Standard",
+      "avatar": null,
+      "walletAddress": "0x1d3c9d737c26930a960a0700528f131eaa540fa8",
+      "smartContractAccess": "Read Only",
+      "joinDate": "2026-10-24",
+      "createdAt": "2026-10-24T12:19:42.306Z",
+      "updatedAt": "2026-10-24T12:19:42.331Z",
+      "security": {
+        "twoFactorEnabled": false,
+        "sessionLogs": true,
+        "apiKey": "sk-ss-live-de816d52650c30dbc19af03aa4cbdfd4"
+      },
+      "notificationsConfig": {
+        "email": true,
+        "push": true,
+        "recommendations": true,
+        "blockchain": true,
+        "alerts": false
+      },
+      "portfolio": [],
+      "watchlist": [
+        "NVDA",
+        "AAPL",
+        "MSFT",
+        "TSLA"
+      ]
+    },
+    {
+      "id": "usr_1792844551071",
+      "name": "Sonu",
+      "email": "sk123456@gmaail.com",
+      "password": "$2b$12$rey3MZ9nsqgHwvKVyS8oY.5Dz84z8PFe2Yti1IV5RMAN0r/DVynLW",
+      "role": "Standard Investor",
+      "plan": "Standard",
+      "avatar": null,
+      "walletAddress": "0x45ed3245885205ddddede6379bf603417a703bf8",
+      "smartContractAccess": "Read Only",
+      "joinDate": "2026-10-24",
+      "createdAt": "2026-10-24T12:22:31.071Z",
+      "updatedAt": "2026-10-24T12:22:31.071Z",
+      "security": {
+        "twoFactorEnabled": false,
+        "sessionLogs": true,
+        "apiKey": "sk-ss-live-508d0ae250041dd15c54abe5600401b4"
+      },
+      "notificationsConfig": {
+        "email": true,
+        "push": true,
+        "recommendations": true,
+        "blockchain": true,
+        "alerts": false
+      },
+      "portfolio": [],
+      "watchlist": [
+        "NVDA",
+        "AAPL",
+        "MSFT"
+      ]
+    }
+  ],
+  "stockHistories": {
+    "AAPL": [
+      {
+        "date": "Sep 8",
+        "price": 169.34,
+        "volume": 3005729
+      },
+      {
+        "date": "Sep 9",
+        "price": 171.14,
+        "volume": 4353601
+      },
+      {
+        "date": "Sep 10",
+        "price": 169.44,
+        "volume": 1625843
+      },
+      {
+        "date": "Sep 11",
+        "price": 167.93,
+        "volume": 1858458
+      },
+      {
+        "date": "Sep 12",
+        "price": 166.89,
+        "volume": 4482515
+      },
+      {
+        "date": "Sep 13",
+        "price": 168.22,
+        "volume": 2888269
+      },
+      {
+        "date": "Sep 14",
+        "price": 168.02,
+        "volume": 5432030
+      },
+      {
+        "date": "Sep 15",
+        "price": 170.04,
+        "volume": 4856056
+      },
+      {
+        "date": "Sep 16",
+        "price": 171.9,
+        "volume": 2081309
+      },
+      {
+        "date": "Sep 17",
+        "price": 172.83,
+        "volume": 5093377
+      },
+      {
+        "date": "Sep 18",
+        "price": 172.64,
+        "volume": 1288227
+      },
+      {
+        "date": "Sep 19",
+        "price": 173.86,
+        "volume": 4039503
+      },
+      {
+        "date": "Sep 20",
+        "price": 174.84,
+        "volume": 5159029
+      },
+      {
+        "date": "Sep 21",
+        "price": 173.33,
+        "volume": 3725629
+      },
+      {
+        "date": "Sep 22",
+        "price": 172.55,
+        "volume": 1989282
+      },
+      {
+        "date": "Sep 23",
+        "price": 174.06,
+        "volume": 4001894
+      },
+      {
+        "date": "Sep 24",
+        "price": 172.72,
+        "volume": 3815697
+      },
+      {
+        "date": "Sep 25",
+        "price": 171.8,
+        "volume": 1092230
+      },
+      {
+        "date": "Sep 26",
+        "price": 172.63,
+        "volume": 3413049
+      },
+      {
+        "date": "Sep 27",
+        "price": 171.35,
+        "volume": 4697161
+      },
+      {
+        "date": "Sep 28",
+        "price": 172.43,
+        "volume": 4520140
+      },
+      {
+        "date": "Sep 29",
+        "price": 172.7,
+        "volume": 4445570
+      },
+      {
+        "date": "Sep 30",
+        "price": 172.47,
+        "volume": 2725914
+      },
+      {
+        "date": "Oct 1",
+        "price": 171.51,
+        "volume": 2594396
+      },
+      {
+        "date": "Oct 2",
+        "price": 172.42,
+        "volume": 2288680
+      },
+      {
+        "date": "Oct 3",
+        "price": 172.86,
+        "volume": 4183292
+      },
+      {
+        "date": "Oct 4",
+        "price": 173.08,
+        "volume": 3143923
+      },
+      {
+        "date": "Oct 5",
+        "price": 173.37,
+        "volume": 5064927
+      },
+      {
+        "date": "Oct 6",
+        "price": 175.24,
+        "volume": 4816806
+      },
+      {
+        "date": "Oct 7",
+        "price": 174.95,
+        "volume": 2769210
+      }
+    ],
+    "MSFT": [
+      {
+        "date": "Sep 8",
+        "price": 414.95,
+        "volume": 4256038
+      },
+      {
+        "date": "Sep 9",
+        "price": 416.59,
+        "volume": 4774410
+      },
+      {
+        "date": "Sep 10",
+        "price": 416.22,
+        "volume": 5297556
+      },
+      {
+        "date": "Sep 11",
+        "price": 417.22,
+        "volume": 5283654
+      },
+      {
+        "date": "Sep 12",
+        "price": 419.62,
+        "volume": 1582358
+      },
+      {
+        "date": "Sep 13",
+        "price": 419.21,
+        "volume": 2542258
+      },
+      {
+        "date": "Sep 14",
+        "price": 421.31,
+        "volume": 4787149
+      },
+      {
+        "date": "Sep 15",
+        "price": 421.26,
+        "volume": 2188958
+      },
+      {
+        "date": "Sep 16",
+        "price": 419.33,
+        "volume": 3373799
+      },
+      {
+        "date": "Sep 17",
+        "price": 418.95,
+        "volume": 1808541
+      },
+      {
+        "date": "Sep 18",
+        "price": 417.45,
+        "volume": 5482042
+      },
+      {
+        "date": "Sep 19",
+        "price": 419.37,
+        "volume": 2321423
+      },
+      {
+        "date": "Sep 20",
+        "price": 422.09,
+        "volume": 3592707
+      },
+      {
+        "date": "Sep 21",
+        "price": 422.38,
+        "volume": 1878675
+      },
+      {
+        "date": "Sep 22",
+        "price": 421.32,
+        "volume": 5921112
+      },
+      {
+        "date": "Sep 23",
+        "price": 423.51,
+        "volume": 3120796
+      },
+      {
+        "date": "Sep 24",
+        "price": 425.12,
+        "volume": 1969097
+      },
+      {
+        "date": "Sep 25",
+        "price": 427.87,
+        "volume": 2532129
+      },
+      {
+        "date": "Sep 26",
+        "price": 430.39,
+        "volume": 2943387
+      },
+      {
+        "date": "Sep 27",
+        "price": 427.91,
+        "volume": 5008334
+      },
+      {
+        "date": "Sep 28",
+        "price": 426.78,
+        "volume": 5739710
+      },
+      {
+        "date": "Sep 29",
+        "price": 426.75,
+        "volume": 1742810
+      },
+      {
+        "date": "Sep 30",
+        "price": 428.79,
+        "volume": 4037448
+      },
+      {
+        "date": "Oct 1",
+        "price": 431.16,
+        "volume": 1608337
+      },
+      {
+        "date": "Oct 2",
+        "price": 432.03,
+        "volume": 3737811
+      },
+      {
+        "date": "Oct 3",
+        "price": 429.54,
+        "volume": 3775032
+      },
+      {
+        "date": "Oct 4",
+        "price": 427.69,
+        "volume": 1682202
+      },
+      {
+        "date": "Oct 5",
+        "price": 428.64,
+        "volume": 1268683
+      },
+      {
+        "date": "Oct 6",
+        "price": 428.71,
+        "volume": 2366920
+      },
+      {
+        "date": "Oct 7",
+        "price": 425.92,
+        "volume": 3215403
+      }
+    ],
+    "NVDA": [
+      {
+        "date": "Sep 8",
+        "price": 875.12,
+        "volume": 5422611
+      },
+      {
+        "date": "Sep 9",
+        "price": 871.26,
+        "volume": 2475657
+      },
+      {
+        "date": "Sep 10",
+        "price": 879.99,
+        "volume": 2996449
+      },
+      {
+        "date": "Sep 11",
+        "price": 879.82,
+        "volume": 2450529
+      },
+      {
+        "date": "Sep 12",
+        "price": 871.98,
+        "volume": 3307130
+      },
+      {
+        "date": "Sep 13",
+        "price": 871.65,
+        "volume": 4937716
+      },
+      {
+        "date": "Sep 14",
+        "price": 875.39,
+        "volume": 5961420
+      },
+      {
+        "date": "Sep 15",
+        "price": 868.77,
+        "volume": 5726559
+      },
+      {
+        "date": "Sep 16",
+        "price": 870.03,
+        "volume": 4407812
+      },
+      {
+        "date": "Sep 17",
+        "price": 865.35,
+        "volume": 2182872
+      },
+      {
+        "date": "Sep 18",
+        "price": 859.29,
+        "volume": 4446379
+      },
+      {
+        "date": "Sep 19",
+        "price": 856.69,
+        "volume": 2337405
+      },
+      {
+        "date": "Sep 20",
+        "price": 849.83,
+        "volume": 3399257
+      },
+      {
+        "date": "Sep 21",
+        "price": 842.69,
+        "volume": 5008687
+      },
+      {
+        "date": "Sep 22",
+        "price": 849.9,
+        "volume": 1107390
+      },
+      {
+        "date": "Sep 23",
+        "price": 855.07,
+        "volume": 2079048
+      },
+      {
+        "date": "Sep 24",
+        "price": 858.87,
+        "volume": 4887120
+      },
+      {
+        "date": "Sep 25",
+        "price": 852.65,
+        "volume": 1235363
+      },
+      {
+        "date": "Sep 26",
+        "price": 844.4,
+        "volume": 3677157
+      },
+      {
+        "date": "Sep 27",
+        "price": 843.49,
+        "volume": 5025971
+      },
+      {
+        "date": "Sep 28",
+        "price": 844.4,
+        "volume": 4484222
+      },
+      {
+        "date": "Sep 29",
+        "price": 846.31,
+        "volume": 2433063
+      },
+      {
+        "date": "Sep 30",
+        "price": 842.24,
+        "volume": 2664884
+      },
+      {
+        "date": "Oct 1",
+        "price": 834.25,
+        "volume": 4167260
+      },
+      {
+        "date": "Oct 2",
+        "price": 828.31,
+        "volume": 5783846
+      },
+      {
+        "date": "Oct 3",
+        "price": 824.06,
+        "volume": 2224233
+      },
+      {
+        "date": "Oct 4",
+        "price": 823.81,
+        "volume": 5777934
+      },
+      {
+        "date": "Oct 5",
+        "price": 825.77,
+        "volume": 1078643
+      },
+      {
+        "date": "Oct 6",
+        "price": 823.94,
+        "volume": 5667795
+      },
+      {
+        "date": "Oct 7",
+        "price": 817.28,
+        "volume": 3653655
+      }
+    ],
+    "TSLA": [
+      {
+        "date": "Sep 8",
+        "price": 178.82,
+        "volume": 5750289
+      },
+      {
+        "date": "Sep 9",
+        "price": 179.64,
+        "volume": 4289354
+      },
+      {
+        "date": "Sep 10",
+        "price": 180.86,
+        "volume": 4143840
+      },
+      {
+        "date": "Sep 11",
+        "price": 186.01,
+        "volume": 4360959
+      },
+      {
+        "date": "Sep 12",
+        "price": 186.31,
+        "volume": 2605650
+      },
+      {
+        "date": "Sep 13",
+        "price": 180.8,
+        "volume": 1367385
+      },
+      {
+        "date": "Sep 14",
+        "price": 175.8,
+        "volume": 5797185
+      },
+      {
+        "date": "Sep 15",
+        "price": 175.56,
+        "volume": 5860171
+      },
+      {
+        "date": "Sep 16",
+        "price": 170.48,
+        "volume": 2530000
+      },
+      {
+        "date": "Sep 17",
+        "price": 167.76,
+        "volume": 5162565
+      },
+      {
+        "date": "Sep 18",
+        "price": 173.99,
+        "volume": 4902443
+      },
+      {
+        "date": "Sep 19",
+        "price": 173.06,
+        "volume": 1782057
+      },
+      {
+        "date": "Sep 20",
+        "price": 175.66,
+        "volume": 3651176
+      },
+      {
+        "date": "Sep 21",
+        "price": 178.34,
+        "volume": 3332685
+      },
+      {
+        "date": "Sep 22",
+        "price": 172.85,
+        "volume": 4782958
+      },
+      {
+        "date": "Sep 23",
+        "price": 176.07,
+        "volume": 1590583
+      },
+      {
+        "date": "Sep 24",
+        "price": 180.13,
+        "volume": 4093528
+      },
+      {
+        "date": "Sep 25",
+        "price": 176.02,
+        "volume": 3604347
+      },
+      {
+        "date": "Sep 26",
+        "price": 173.85,
+        "volume": 5482997
+      },
+      {
+        "date": "Sep 27",
+        "price": 174.19,
+        "volume": 3804769
+      },
+      {
+        "date": "Sep 28",
+        "price": 169.05,
+        "volume": 1060194
+      },
+      {
+        "date": "Sep 29",
+        "price": 171.69,
+        "volume": 1864472
+      },
+      {
+        "date": "Sep 30",
+        "price": 172.63,
+        "volume": 2900231
+      },
+      {
+        "date": "Oct 1",
+        "price": 167.06,
+        "volume": 2603320
+      },
+      {
+        "date": "Oct 2",
+        "price": 170.97,
+        "volume": 1318318
+      },
+      {
+        "date": "Oct 3",
+        "price": 167.59,
+        "volume": 2672775
+      },
+      {
+        "date": "Oct 4",
+        "price": 168.77,
+        "volume": 3704800
+      },
+      {
+        "date": "Oct 5",
+        "price": 164.1,
+        "volume": 1043803
+      },
+      {
+        "date": "Oct 6",
+        "price": 169.19,
+        "volume": 2082776
+      },
+      {
+        "date": "Oct 7",
+        "price": 174.57,
+        "volume": 1340996
+      }
+    ],
+    "GOOGL": [
+      {
+        "date": "Sep 8",
+        "price": 164.03,
+        "volume": 3319939
+      },
+      {
+        "date": "Sep 9",
+        "price": 164.04,
+        "volume": 1444864
+      },
+      {
+        "date": "Sep 10",
+        "price": 162.2,
+        "volume": 3274916
+      },
+      {
+        "date": "Sep 11",
+        "price": 164.21,
+        "volume": 3428331
+      },
+      {
+        "date": "Sep 12",
+        "price": 165.26,
+        "volume": 4474290
+      },
+      {
+        "date": "Sep 13",
+        "price": 167.44,
+        "volume": 2009573
+      },
+      {
+        "date": "Sep 14",
+        "price": 168.29,
+        "volume": 3592186
+      },
+      {
+        "date": "Sep 15",
+        "price": 168.07,
+        "volume": 4191036
+      },
+      {
+        "date": "Sep 16",
+        "price": 170.26,
+        "volume": 2118366
+      },
+      {
+        "date": "Sep 17",
+        "price": 169.55,
+        "volume": 3231854
+      },
+      {
+        "date": "Sep 18",
+        "price": 167.6,
+        "volume": 2211896
+      },
+      {
+        "date": "Sep 19",
+        "price": 165.84,
+        "volume": 5157016
+      },
+      {
+        "date": "Sep 20",
+        "price": 164.73,
+        "volume": 1090723
+      },
+      {
+        "date": "Sep 21",
+        "price": 165.26,
+        "volume": 4073807
+      },
+      {
+        "date": "Sep 22",
+        "price": 165.51,
+        "volume": 1366846
+      },
+      {
+        "date": "Sep 23",
+        "price": 167.51,
+        "volume": 5000476
+      },
+      {
+        "date": "Sep 24",
+        "price": 166.11,
+        "volume": 5078984
+      },
+      {
+        "date": "Sep 25",
+        "price": 167.98,
+        "volume": 2147475
+      },
+      {
+        "date": "Sep 26",
+        "price": 166.87,
+        "volume": 3487421
+      },
+      {
+        "date": "Sep 27",
+        "price": 168.07,
+        "volume": 5978646
+      },
+      {
+        "date": "Sep 28",
+        "price": 167.74,
+        "volume": 1647914
+      },
+      {
+        "date": "Sep 29",
+        "price": 169.33,
+        "volume": 1290405
+      },
+      {
+        "date": "Sep 30",
+        "price": 171.11,
+        "volume": 4261516
+      },
+      {
+        "date": "Oct 1",
+        "price": 173.16,
+        "volume": 2932292
+      },
+      {
+        "date": "Oct 2",
+        "price": 173.6,
+        "volume": 5642914
+      },
+      {
+        "date": "Oct 3",
+        "price": 175.13,
+        "volume": 2633933
+      },
+      {
+        "date": "Oct 4",
+        "price": 177.08,
+        "volume": 5169002
+      },
+      {
+        "date": "Oct 5",
+        "price": 178.64,
+        "volume": 1449734
+      },
+      {
+        "date": "Oct 6",
+        "price": 178.76,
+        "volume": 1597194
+      },
+      {
+        "date": "Oct 7",
+        "price": 176.71,
+        "volume": 5942256
+      }
+    ],
+    "AMZN": [
+      {
+        "date": "Sep 8",
+        "price": 184.19,
+        "volume": 1267296
+      },
+      {
+        "date": "Sep 9",
+        "price": 182.8,
+        "volume": 2149161
+      },
+      {
+        "date": "Sep 10",
+        "price": 182.14,
+        "volume": 5458211
+      },
+      {
+        "date": "Sep 11",
+        "price": 181.31,
+        "volume": 5072660
+      },
+      {
+        "date": "Sep 12",
+        "price": 182.06,
+        "volume": 1659490
+      },
+      {
+        "date": "Sep 13",
+        "price": 182.5,
+        "volume": 2684612
+      },
+      {
+        "date": "Sep 14",
+        "price": 183.17,
+        "volume": 1868922
+      },
+      {
+        "date": "Sep 15",
+        "price": 183.21,
+        "volume": 1818043
+      },
+      {
+        "date": "Sep 16",
+        "price": 184.4,
+        "volume": 1569507
+      },
+      {
+        "date": "Sep 17",
+        "price": 181.72,
+        "volume": 2276750
+      },
+      {
+        "date": "Sep 18",
+        "price": 182.05,
+        "volume": 3169264
+      },
+      {
+        "date": "Sep 19",
+        "price": 179.23,
+        "volume": 2279054
+      },
+      {
+        "date": "Sep 20",
+        "price": 179.74,
+        "volume": 4757436
+      },
+      {
+        "date": "Sep 21",
+        "price": 182.13,
+        "volume": 2170186
+      },
+      {
+        "date": "Sep 22",
+        "price": 183.26,
+        "volume": 4327969
+      },
+      {
+        "date": "Sep 23",
+        "price": 181.24,
+        "volume": 2230345
+      },
+      {
+        "date": "Sep 24",
+        "price": 182.41,
+        "volume": 1688802
+      },
+      {
+        "date": "Sep 25",
+        "price": 185.4,
+        "volume": 3380481
+      },
+      {
+        "date": "Sep 26",
+        "price": 186.49,
+        "volume": 4856170
+      },
+      {
+        "date": "Sep 27",
+        "price": 187.34,
+        "volume": 2738798
+      },
+      {
+        "date": "Sep 28",
+        "price": 184.7,
+        "volume": 4492083
+      },
+      {
+        "date": "Sep 29",
+        "price": 187.3,
+        "volume": 5685543
+      },
+      {
+        "date": "Sep 30",
+        "price": 185.51,
+        "volume": 5779541
+      },
+      {
+        "date": "Oct 1",
+        "price": 185.41,
+        "volume": 1194018
+      },
+      {
+        "date": "Oct 2",
+        "price": 183.12,
+        "volume": 3661041
+      },
+      {
+        "date": "Oct 3",
+        "price": 182.04,
+        "volume": 3274151
+      },
+      {
+        "date": "Oct 4",
+        "price": 184.85,
+        "volume": 2153365
+      },
+      {
+        "date": "Oct 5",
+        "price": 187.54,
+        "volume": 2795006
+      },
+      {
+        "date": "Oct 6",
+        "price": 187.08,
+        "volume": 2861540
+      },
+      {
+        "date": "Oct 7",
+        "price": 185.66,
+        "volume": 1386073
+      }
+    ],
+    "META": [
+      {
+        "date": "Sep 8",
+        "price": 512.91,
+        "volume": 5940634
+      },
+      {
+        "date": "Sep 9",
+        "price": 512.89,
+        "volume": 2262389
+      },
+      {
+        "date": "Sep 10",
+        "price": 509.7,
+        "volume": 1464779
+      },
+      {
+        "date": "Sep 11",
+        "price": 510.94,
+        "volume": 3133721
+      },
+      {
+        "date": "Sep 12",
+        "price": 508.6,
+        "volume": 2615961
+      },
+      {
+        "date": "Sep 13",
+        "price": 506.97,
+        "volume": 2546039
+      },
+      {
+        "date": "Sep 14",
+        "price": 504.29,
+        "volume": 3190566
+      },
+      {
+        "date": "Sep 15",
+        "price": 505.31,
+        "volume": 1079297
+      },
+      {
+        "date": "Sep 16",
+        "price": 505.29,
+        "volume": 5527300
+      },
+      {
+        "date": "Sep 17",
+        "price": 505.63,
+        "volume": 1391059
+      },
+      {
+        "date": "Sep 18",
+        "price": 509.68,
+        "volume": 2669413
+      },
+      {
+        "date": "Sep 19",
+        "price": 506.16,
+        "volume": 4051420
+      },
+      {
+        "date": "Sep 20",
+        "price": 509.89,
+        "volume": 1777078
+      },
+      {
+        "date": "Sep 21",
+        "price": 512.68,
+        "volume": 4616469
+      },
+      {
+        "date": "Sep 22",
+        "price": 515.69,
+        "volume": 4649395
+      },
+      {
+        "date": "Sep 23",
+        "price": 519.38,
+        "volume": 3977293
+      },
+      {
+        "date": "Sep 24",
+        "price": 518.57,
+        "volume": 5556082
+      },
+      {
+        "date": "Sep 25",
+        "price": 518.14,
+        "volume": 1938136
+      },
+      {
+        "date": "Sep 26",
+        "price": 517.17,
+        "volume": 5554989
+      },
+      {
+        "date": "Sep 27",
+        "price": 520.87,
+        "volume": 3724802
+      },
+      {
+        "date": "Sep 28",
+        "price": 521.71,
+        "volume": 1780749
+      },
+      {
+        "date": "Sep 29",
+        "price": 523.79,
+        "volume": 2037146
+      },
+      {
+        "date": "Sep 30",
+        "price": 525.71,
+        "volume": 1506439
+      },
+      {
+        "date": "Oct 1",
+        "price": 525.46,
+        "volume": 4348317
+      },
+      {
+        "date": "Oct 2",
+        "price": 524.31,
+        "volume": 3722963
+      },
+      {
+        "date": "Oct 3",
+        "price": 525.43,
+        "volume": 1897340
+      },
+      {
+        "date": "Oct 4",
+        "price": 526.15,
+        "volume": 5182291
+      },
+      {
+        "date": "Oct 5",
+        "price": 523.36,
+        "volume": 1066695
+      },
+      {
+        "date": "Oct 6",
+        "price": 522.03,
+        "volume": 5787602
+      },
+      {
+        "date": "Oct 7",
+        "price": 518.37,
+        "volume": 5501761
+      }
+    ],
+    "NFLX": [
+      {
+        "date": "Sep 8",
+        "price": 618.4,
+        "volume": 5197308
+      },
+      {
+        "date": "Sep 9",
+        "price": 625.78,
+        "volume": 5373858
+      },
+      {
+        "date": "Sep 10",
+        "price": 624.64,
+        "volume": 1433203
+      },
+      {
+        "date": "Sep 11",
+        "price": 631.37,
+        "volume": 1557959
+      },
+      {
+        "date": "Sep 12",
+        "price": 628.46,
+        "volume": 5006134
+      },
+      {
+        "date": "Sep 13",
+        "price": 627.99,
+        "volume": 3926836
+      },
+      {
+        "date": "Sep 14",
+        "price": 635.69,
+        "volume": 5471694
+      },
+      {
+        "date": "Sep 15",
+        "price": 637.99,
+        "volume": 1135159
+      },
+      {
+        "date": "Sep 16",
+        "price": 633.55,
+        "volume": 3943053
+      },
+      {
+        "date": "Sep 17",
+        "price": 633.46,
+        "volume": 2610107
+      },
+      {
+        "date": "Sep 18",
+        "price": 640.35,
+        "volume": 3421706
+      },
+      {
+        "date": "Sep 19",
+        "price": 645.48,
+        "volume": 2709952
+      },
+      {
+        "date": "Sep 20",
+        "price": 642.32,
+        "volume": 1845463
+      },
+      {
+        "date": "Sep 21",
+        "price": 644.9,
+        "volume": 2973015
+      },
+      {
+        "date": "Sep 22",
+        "price": 645.74,
+        "volume": 3233378
+      },
+      {
+        "date": "Sep 23",
+        "price": 650.86,
+        "volume": 1112445
+      },
+      {
+        "date": "Sep 24",
+        "price": 656.64,
+        "volume": 3542674
+      },
+      {
+        "date": "Sep 25",
+        "price": 652.42,
+        "volume": 2603385
+      },
+      {
+        "date": "Sep 26",
+        "price": 649.94,
+        "volume": 5310957
+      },
+      {
+        "date": "Sep 27",
+        "price": 654.31,
+        "volume": 5015336
+      },
+      {
+        "date": "Sep 28",
+        "price": 659.06,
+        "volume": 1924379
+      },
+      {
+        "date": "Sep 29",
+        "price": 660.45,
+        "volume": 2772552
+      },
+      {
+        "date": "Sep 30",
+        "price": 658.24,
+        "volume": 5049255
+      },
+      {
+        "date": "Oct 1",
+        "price": 665.87,
+        "volume": 3221910
+      },
+      {
+        "date": "Oct 2",
+        "price": 670.33,
+        "volume": 3423877
+      },
+      {
+        "date": "Oct 3",
+        "price": 670.01,
+        "volume": 4528570
+      },
+      {
+        "date": "Oct 4",
+        "price": 668.43,
+        "volume": 5336510
+      },
+      {
+        "date": "Oct 5",
+        "price": 668.6,
+        "volume": 4044786
+      },
+      {
+        "date": "Oct 6",
+        "price": 673.22,
+        "volume": 2035636
+      },
+      {
+        "date": "Oct 7",
+        "price": 666.53,
+        "volume": 3880571
+      }
+    ],
+    "AMD": [
+      {
+        "date": "Sep 8",
+        "price": 178.21,
+        "volume": 5986607
+      },
+      {
+        "date": "Sep 9",
+        "price": 177.67,
+        "volume": 2324743
+      },
+      {
+        "date": "Sep 10",
+        "price": 181.26,
+        "volume": 5887359
+      },
+      {
+        "date": "Sep 11",
+        "price": 178.54,
+        "volume": 1503379
+      },
+      {
+        "date": "Sep 12",
+        "price": 177.54,
+        "volume": 2330338
+      },
+      {
+        "date": "Sep 13",
+        "price": 177.14,
+        "volume": 1945951
+      },
+      {
+        "date": "Sep 14",
+        "price": 175.33,
+        "volume": 3116357
+      },
+      {
+        "date": "Sep 15",
+        "price": 175.82,
+        "volume": 1162679
+      },
+      {
+        "date": "Sep 16",
+        "price": 180.62,
+        "volume": 5523636
+      },
+      {
+        "date": "Sep 17",
+        "price": 182.86,
+        "volume": 3380249
+      },
+      {
+        "date": "Sep 18",
+        "price": 178.54,
+        "volume": 4965147
+      },
+      {
+        "date": "Sep 19",
+        "price": 181.62,
+        "volume": 3235976
+      },
+      {
+        "date": "Sep 20",
+        "price": 184.42,
+        "volume": 1128494
+      },
+      {
+        "date": "Sep 21",
+        "price": 189.54,
+        "volume": 2091267
+      },
+      {
+        "date": "Sep 22",
+        "price": 193.67,
+        "volume": 5252981
+      },
+      {
+        "date": "Sep 23",
+        "price": 189.32,
+        "volume": 1763689
+      },
+      {
+        "date": "Sep 24",
+        "price": 191.29,
+        "volume": 3580545
+      },
+      {
+        "date": "Sep 25",
+        "price": 196.05,
+        "volume": 3121838
+      },
+      {
+        "date": "Sep 26",
+        "price": 197.52,
+        "volume": 1592515
+      },
+      {
+        "date": "Sep 27",
+        "price": 196.51,
+        "volume": 2422892
+      },
+      {
+        "date": "Sep 28",
+        "price": 197.74,
+        "volume": 2358375
+      },
+      {
+        "date": "Sep 29",
+        "price": 197.52,
+        "volume": 5833219
+      },
+      {
+        "date": "Sep 30",
+        "price": 197.58,
+        "volume": 3823269
+      },
+      {
+        "date": "Oct 1",
+        "price": 198.94,
+        "volume": 3105881
+      },
+      {
+        "date": "Oct 2",
+        "price": 199.39,
+        "volume": 5299743
+      },
+      {
+        "date": "Oct 3",
+        "price": 200.53,
+        "volume": 1449073
+      },
+      {
+        "date": "Oct 4",
+        "price": 200.17,
+        "volume": 3037766
+      },
+      {
+        "date": "Oct 5",
+        "price": 201.13,
+        "volume": 4469020
+      },
+      {
+        "date": "Oct 6",
+        "price": 204.69,
+        "volume": 4791482
+      },
+      {
+        "date": "Oct 7",
+        "price": 200.99,
+        "volume": 4249838
+      }
+    ],
+    "INTC": [
+      {
+        "date": "Sep 8",
+        "price": 42.77,
+        "volume": 4320324
+      },
+      {
+        "date": "Sep 9",
+        "price": 43.2,
+        "volume": 1808159
+      },
+      {
+        "date": "Sep 10",
+        "price": 42.01,
+        "volume": 4682122
+      },
+      {
+        "date": "Sep 11",
+        "price": 41.98,
+        "volume": 3465324
+      },
+      {
+        "date": "Sep 12",
+        "price": 41.95,
+        "volume": 5791938
+      },
+      {
+        "date": "Sep 13",
+        "price": 42.64,
+        "volume": 1692453
+      },
+      {
+        "date": "Sep 14",
+        "price": 41.29,
+        "volume": 2785087
+      },
+      {
+        "date": "Sep 15",
+        "price": 41.1,
+        "volume": 1035912
+      },
+      {
+        "date": "Sep 16",
+        "price": 39.73,
+        "volume": 1096996
+      },
+      {
+        "date": "Sep 17",
+        "price": 39.39,
+        "volume": 2644503
+      },
+      {
+        "date": "Sep 18",
+        "price": 39.33,
+        "volume": 2629658
+      },
+      {
+        "date": "Sep 19",
+        "price": 38.21,
+        "volume": 1771927
+      },
+      {
+        "date": "Sep 20",
+        "price": 38.88,
+        "volume": 1003322
+      },
+      {
+        "date": "Sep 21",
+        "price": 39.21,
+        "volume": 5746788
+      },
+      {
+        "date": "Sep 22",
+        "price": 39.25,
+        "volume": 1424840
+      },
+      {
+        "date": "Sep 23",
+        "price": 38.84,
+        "volume": 5088085
+      },
+      {
+        "date": "Sep 24",
+        "price": 39.02,
+        "volume": 5276416
+      },
+      {
+        "date": "Sep 25",
+        "price": 39.92,
+        "volume": 5293388
+      },
+      {
+        "date": "Sep 26",
+        "price": 40.03,
+        "volume": 5641854
+      },
+      {
+        "date": "Sep 27",
+        "price": 39.6,
+        "volume": 5974411
+      },
+      {
+        "date": "Sep 28",
+        "price": 40.78,
+        "volume": 1931323
+      },
+      {
+        "date": "Sep 29",
+        "price": 42.27,
+        "volume": 2154204
+      },
+      {
+        "date": "Sep 30",
+        "price": 43,
+        "volume": 1727835
+      },
+      {
+        "date": "Oct 1",
+        "price": 44.06,
+        "volume": 5016916
+      },
+      {
+        "date": "Oct 2",
+        "price": 44.63,
+        "volume": 2864305
+      },
+      {
+        "date": "Oct 3",
+        "price": 44.28,
+        "volume": 4451708
+      },
+      {
+        "date": "Oct 4",
+        "price": 44.65,
+        "volume": 1786598
+      },
+      {
+        "date": "Oct 5",
+        "price": 43.47,
+        "volume": 5167041
+      },
+      {
+        "date": "Oct 6",
+        "price": 43.25,
+        "volume": 5990718
+      },
+      {
+        "date": "Oct 7",
+        "price": 41.93,
+        "volume": 1791805
+      }
+    ],
+    "PLTR": [
+      {
+        "date": "Sep 8",
+        "price": 80.37,
+        "volume": 3191261
+      },
+      {
+        "date": "Sep 9",
+        "price": 79.83,
+        "volume": 3045804
+      },
+      {
+        "date": "Sep 10",
+        "price": 79.62,
+        "volume": 4466405
+      },
+      {
+        "date": "Sep 11",
+        "price": 79.06,
+        "volume": 2602342
+      },
+      {
+        "date": "Sep 12",
+        "price": 79.73,
+        "volume": 1271166
+      },
+      {
+        "date": "Sep 13",
+        "price": 79.47,
+        "volume": 4945598
+      },
+      {
+        "date": "Sep 14",
+        "price": 80.26,
+        "volume": 2761972
+      },
+      {
+        "date": "Sep 15",
+        "price": 80.13,
+        "volume": 5477351
+      },
+      {
+        "date": "Sep 16",
+        "price": 81.01,
+        "volume": 4347890
+      },
+      {
+        "date": "Sep 17",
+        "price": 82.2,
+        "volume": 987604
+      },
+      {
+        "date": "Sep 18",
+        "price": 83.46,
+        "volume": 1486642
+      },
+      {
+        "date": "Sep 19",
+        "price": 83.68,
+        "volume": 3443123
+      },
+      {
+        "date": "Sep 20",
+        "price": 84.46,
+        "volume": 6414016
+      },
+      {
+        "date": "Sep 21",
+        "price": 84.13,
+        "volume": 997211
+      },
+      {
+        "date": "Sep 22",
+        "price": 84.91,
+        "volume": 5506170
+      },
+      {
+        "date": "Sep 23",
+        "price": 84.61,
+        "volume": 2473435
+      },
+      {
+        "date": "Sep 24",
+        "price": 83.97,
+        "volume": 1912270
+      },
+      {
+        "date": "Sep 25",
+        "price": 83.13,
+        "volume": 4902577
+      },
+      {
+        "date": "Sep 26",
+        "price": 83.07,
+        "volume": 2006232
+      },
+      {
+        "date": "Sep 27",
+        "price": 84.12,
+        "volume": 1709913
+      },
+      {
+        "date": "Sep 28",
+        "price": 84.14,
+        "volume": 5754873
+      },
+      {
+        "date": "Sep 29",
+        "price": 84.26,
+        "volume": 2169446
+      },
+      {
+        "date": "Sep 30",
+        "price": 84.41,
+        "volume": 5031040
+      },
+      {
+        "date": "Oct 1",
+        "price": 84.54,
+        "volume": 2353416
+      },
+      {
+        "date": "Oct 2",
+        "price": 85.26,
+        "volume": 3042848
+      },
+      {
+        "date": "Oct 3",
+        "price": 84.19,
+        "volume": 4063912
+      },
+      {
+        "date": "Oct 4",
+        "price": 85.43,
+        "volume": 4545619
+      },
+      {
+        "date": "Oct 5",
+        "price": 84.64,
+        "volume": 1672462
+      },
+      {
+        "date": "Oct 6",
+        "price": 83.94,
+        "volume": 1245291
+      },
+      {
+        "date": "Oct 7",
+        "price": 84,
+        "volume": 2557180
+      }
+    ],
+    "TOP10": [
+      {
+        "date": "Sep 13",
+        "price": 266.84,
+        "volume": 6459561
+      },
+      {
+        "date": "Sep 14",
+        "price": 265.26,
+        "volume": 5196430
+      },
+      {
+        "date": "Sep 15",
+        "price": 264.66,
+        "volume": 5176835
+      },
+      {
+        "date": "Sep 16",
+        "price": 264.64,
+        "volume": 5857890
+      },
+      {
+        "date": "Sep 17",
+        "price": 267.51,
+        "volume": 1521781
+      },
+      {
+        "date": "Sep 18",
+        "price": 264.61,
+        "volume": 5763709
+      },
+      {
+        "date": "Sep 19",
+        "price": 264.43,
+        "volume": 1362278
+      },
+      {
+        "date": "Sep 20",
+        "price": 264.09,
+        "volume": 3357725
+      },
+      {
+        "date": "Sep 21",
+        "price": 264.81,
+        "volume": 5327164
+      },
+      {
+        "date": "Sep 22",
+        "price": 267.28,
+        "volume": 2427715
+      },
+      {
+        "date": "Sep 23",
+        "price": 268.86,
+        "volume": 6764037
+      },
+      {
+        "date": "Sep 24",
+        "price": 272.07,
+        "volume": 6457068
+      },
+      {
+        "date": "Sep 25",
+        "price": 275.28,
+        "volume": 2758178
+      },
+      {
+        "date": "Sep 26",
+        "price": 278.15,
+        "volume": 4982198
+      },
+      {
+        "date": "Sep 27",
+        "price": 282.32,
+        "volume": 5886571
+      },
+      {
+        "date": "Sep 28",
+        "price": 279.97,
+        "volume": 3683031
+      },
+      {
+        "date": "Sep 29",
+        "price": 278.5,
+        "volume": 5977550
+      },
+      {
+        "date": "Sep 30",
+        "price": 280.39,
+        "volume": 978375
+      },
+      {
+        "date": "Oct 1",
+        "price": 280.35,
+        "volume": 2048011
+      },
+      {
+        "date": "Oct 2",
+        "price": 280.06,
+        "volume": 1891441
+      },
+      {
+        "date": "Oct 3",
+        "price": 281.99,
+        "volume": 4070458
+      },
+      {
+        "date": "Oct 4",
+        "price": 279.29,
+        "volume": 2791070
+      },
+      {
+        "date": "Oct 5",
+        "price": 275.51,
+        "volume": 927110
+      },
+      {
+        "date": "Oct 6",
+        "price": 272.95,
+        "volume": 6579645
+      },
+      {
+        "date": "Oct 7",
+        "price": 272.18,
+        "volume": 3350408
+      },
+      {
+        "date": "Oct 8",
+        "price": 270.57,
+        "volume": 4255132
+      },
+      {
+        "date": "Oct 9",
+        "price": 272.22,
+        "volume": 3965334
+      },
+      {
+        "date": "Oct 10",
+        "price": 274.2,
+        "volume": 1666561
+      },
+      {
+        "date": "Oct 11",
+        "price": 274.26,
+        "volume": 1459204
+      },
+      {
+        "date": "Oct 12",
+        "price": 274.26,
+        "volume": 3650423
+      }
+    ],
+    "TCS.NS": [
+      {
+        "date": "Sep 13",
+        "price": 154.47,
+        "volume": 1768529
+      },
+      {
+        "date": "Sep 14",
+        "price": 154.84,
+        "volume": 1725310
+      },
+      {
+        "date": "Sep 15",
+        "price": 155.27,
+        "volume": 3639245
+      },
+      {
+        "date": "Sep 16",
+        "price": 154.16,
+        "volume": 4163661
+      },
+      {
+        "date": "Sep 17",
+        "price": 154.44,
+        "volume": 5928298
+      },
+      {
+        "date": "Sep 18",
+        "price": 154.75,
+        "volume": 2450116
+      },
+      {
+        "date": "Sep 19",
+        "price": 153.89,
+        "volume": 5987696
+      },
+      {
+        "date": "Sep 20",
+        "price": 155.06,
+        "volume": 3367642
+      },
+      {
+        "date": "Sep 21",
+        "price": 153.27,
+        "volume": 4681755
+      },
+      {
+        "date": "Sep 22",
+        "price": 154.15,
+        "volume": 1540663
+      },
+      {
+        "date": "Sep 23",
+        "price": 153.72,
+        "volume": 5481259
+      },
+      {
+        "date": "Sep 24",
+        "price": 153.26,
+        "volume": 3236987
+      },
+      {
+        "date": "Sep 25",
+        "price": 151.52,
+        "volume": 6797572
+      },
+      {
+        "date": "Sep 26",
+        "price": 153.32,
+        "volume": 2632618
+      },
+      {
+        "date": "Sep 27",
+        "price": 152.77,
+        "volume": 1608648
+      },
+      {
+        "date": "Sep 28",
+        "price": 151.93,
+        "volume": 2982796
+      },
+      {
+        "date": "Sep 29",
+        "price": 152.88,
+        "volume": 4304888
+      },
+      {
+        "date": "Sep 30",
+        "price": 153.19,
+        "volume": 5627593
+      },
+      {
+        "date": "Oct 1",
+        "price": 151.79,
+        "volume": 2960706
+      },
+      {
+        "date": "Oct 2",
+        "price": 152.18,
+        "volume": 2076258
+      },
+      {
+        "date": "Oct 3",
+        "price": 150.38,
+        "volume": 6704431
+      },
+      {
+        "date": "Oct 4",
+        "price": 149.16,
+        "volume": 2113401
+      },
+      {
+        "date": "Oct 5",
+        "price": 150.5,
+        "volume": 5891127
+      },
+      {
+        "date": "Oct 6",
+        "price": 152.2,
+        "volume": 2497143
+      },
+      {
+        "date": "Oct 7",
+        "price": 153.4,
+        "volume": 5339143
+      },
+      {
+        "date": "Oct 8",
+        "price": 153.23,
+        "volume": 6200383
+      },
+      {
+        "date": "Oct 9",
+        "price": 153.11,
+        "volume": 3375416
+      },
+      {
+        "date": "Oct 10",
+        "price": 153.74,
+        "volume": 1681169
+      },
+      {
+        "date": "Oct 11",
+        "price": 154.32,
+        "volume": 4104717
+      },
+      {
+        "date": "Oct 12",
+        "price": 155.61,
+        "volume": 4834060
+      }
+    ],
+    "TATASTEEL.NS": [
+      {
+        "date": "Sep 13",
+        "price": 237.59,
+        "volume": 3627327
+      },
+      {
+        "date": "Sep 14",
+        "price": 238.65,
+        "volume": 4373032
+      },
+      {
+        "date": "Sep 15",
+        "price": 235.4,
+        "volume": 3075680
+      },
+      {
+        "date": "Sep 16",
+        "price": 232.76,
+        "volume": 1427592
+      },
+      {
+        "date": "Sep 17",
+        "price": 235.08,
+        "volume": 1128132
+      },
+      {
+        "date": "Sep 18",
+        "price": 238.55,
+        "volume": 3982439
+      },
+      {
+        "date": "Sep 19",
+        "price": 241.36,
+        "volume": 3737911
+      },
+      {
+        "date": "Sep 20",
+        "price": 242.66,
+        "volume": 2792441
+      },
+      {
+        "date": "Sep 21",
+        "price": 240.6,
+        "volume": 2352380
+      },
+      {
+        "date": "Sep 22",
+        "price": 241.13,
+        "volume": 1387789
+      },
+      {
+        "date": "Sep 23",
+        "price": 241.27,
+        "volume": 3596535
+      },
+      {
+        "date": "Sep 24",
+        "price": 244.75,
+        "volume": 3118214
+      },
+      {
+        "date": "Sep 25",
+        "price": 244.03,
+        "volume": 5976926
+      },
+      {
+        "date": "Sep 26",
+        "price": 245.07,
+        "volume": 3683100
+      },
+      {
+        "date": "Sep 27",
+        "price": 247.6,
+        "volume": 6412169
+      },
+      {
+        "date": "Sep 28",
+        "price": 247.01,
+        "volume": 4010574
+      },
+      {
+        "date": "Sep 29",
+        "price": 246.2,
+        "volume": 3502189
+      },
+      {
+        "date": "Sep 30",
+        "price": 243.37,
+        "volume": 6572037
+      },
+      {
+        "date": "Oct 1",
+        "price": 241.25,
+        "volume": 5563406
+      },
+      {
+        "date": "Oct 2",
+        "price": 238.65,
+        "volume": 5575636
+      },
+      {
+        "date": "Oct 3",
+        "price": 241.68,
+        "volume": 836021
+      },
+      {
+        "date": "Oct 4",
+        "price": 240.75,
+        "volume": 6413919
+      },
+      {
+        "date": "Oct 5",
+        "price": 237.58,
+        "volume": 5720801
+      },
+      {
+        "date": "Oct 6",
+        "price": 236.15,
+        "volume": 6531770
+      },
+      {
+        "date": "Oct 7",
+        "price": 238.72,
+        "volume": 6008658
+      },
+      {
+        "date": "Oct 8",
+        "price": 241.99,
+        "volume": 2299662
+      },
+      {
+        "date": "Oct 9",
+        "price": 240.12,
+        "volume": 3796311
+      },
+      {
+        "date": "Oct 10",
+        "price": 239.66,
+        "volume": 1246330
+      },
+      {
+        "date": "Oct 11",
+        "price": 242.64,
+        "volume": 3800880
+      },
+      {
+        "date": "Oct 12",
+        "price": 240.05,
+        "volume": 4729639
+      }
+    ],
+    "JIO": [
+      {
+        "date": "Sep 25",
+        "price": 135.2,
+        "volume": 3240087
+      },
+      {
+        "date": "Sep 26",
+        "price": 136.15,
+        "volume": 6278738
+      },
+      {
+        "date": "Sep 27",
+        "price": 136.54,
+        "volume": 804801
+      },
+      {
+        "date": "Sep 28",
+        "price": 137.08,
+        "volume": 6683605
+      },
+      {
+        "date": "Sep 29",
+        "price": 137.07,
+        "volume": 4288936
+      },
+      {
+        "date": "Sep 30",
+        "price": 137.95,
+        "volume": 6437899
+      },
+      {
+        "date": "Oct 1",
+        "price": 137.12,
+        "volume": 4099195
+      },
+      {
+        "date": "Oct 2",
+        "price": 135.64,
+        "volume": 4422903
+      },
+      {
+        "date": "Oct 3",
+        "price": 137.21,
+        "volume": 5065331
+      },
+      {
+        "date": "Oct 4",
+        "price": 138.65,
+        "volume": 5997955
+      },
+      {
+        "date": "Oct 5",
+        "price": 138.27,
+        "volume": 3143540
+      },
+      {
+        "date": "Oct 6",
+        "price": 140.45,
+        "volume": 6742915
+      },
+      {
+        "date": "Oct 7",
+        "price": 139.52,
+        "volume": 6136189
+      },
+      {
+        "date": "Oct 8",
+        "price": 138.57,
+        "volume": 3885675
+      },
+      {
+        "date": "Oct 9",
+        "price": 138.73,
+        "volume": 6110675
+      },
+      {
+        "date": "Oct 10",
+        "price": 139.68,
+        "volume": 2950169
+      },
+      {
+        "date": "Oct 11",
+        "price": 140.96,
+        "volume": 5178941
+      },
+      {
+        "date": "Oct 12",
+        "price": 141.08,
+        "volume": 3616924
+      },
+      {
+        "date": "Oct 13",
+        "price": 140.12,
+        "volume": 2787293
+      },
+      {
+        "date": "Oct 14",
+        "price": 138.42,
+        "volume": 1532382
+      },
+      {
+        "date": "Oct 15",
+        "price": 137.46,
+        "volume": 2789312
+      },
+      {
+        "date": "Oct 16",
+        "price": 138.4,
+        "volume": 2371756
+      },
+      {
+        "date": "Oct 17",
+        "price": 137.75,
+        "volume": 5475549
+      },
+      {
+        "date": "Oct 18",
+        "price": 138.38,
+        "volume": 3286482
+      },
+      {
+        "date": "Oct 19",
+        "price": 139.24,
+        "volume": 3001155
+      },
+      {
+        "date": "Oct 20",
+        "price": 138.47,
+        "volume": 1883402
+      },
+      {
+        "date": "Oct 21",
+        "price": 139.5,
+        "volume": 6513477
+      },
+      {
+        "date": "Oct 22",
+        "price": 139.85,
+        "volume": 5447959
+      },
+      {
+        "date": "Oct 23",
+        "price": 140.77,
+        "volume": 5519253
+      },
+      {
+        "date": "Oct 24",
+        "price": 142.71,
+        "volume": 3340440
+      }
+    ],
+    "PWL.NS": [
+      {
+        "date": "Sep 25",
+        "price": 112.3,
+        "volume": 4606132
+      },
+      {
+        "date": "Sep 26",
+        "price": 111.99,
+        "volume": 5698773
+      },
+      {
+        "date": "Sep 27",
+        "price": 110.8,
+        "volume": 2236347
+      },
+      {
+        "date": "Sep 28",
+        "price": 112.28,
+        "volume": 6284645
+      },
+      {
+        "date": "Sep 29",
+        "price": 111.9,
+        "volume": 4162079
+      },
+      {
+        "date": "Sep 30",
+        "price": 113.1,
+        "volume": 3184588
+      },
+      {
+        "date": "Oct 1",
+        "price": 112.62,
+        "volume": 1650018
+      },
+      {
+        "date": "Oct 2",
+        "price": 112.24,
+        "volume": 2707444
+      },
+      {
+        "date": "Oct 3",
+        "price": 113.02,
+        "volume": 4502870
+      },
+      {
+        "date": "Oct 4",
+        "price": 112.61,
+        "volume": 2066742
+      },
+      {
+        "date": "Oct 5",
+        "price": 112.06,
+        "volume": 6664501
+      },
+      {
+        "date": "Oct 6",
+        "price": 111.22,
+        "volume": 1904866
+      },
+      {
+        "date": "Oct 7",
+        "price": 112.84,
+        "volume": 4697069
+      },
+      {
+        "date": "Oct 8",
+        "price": 113.66,
+        "volume": 2963085
+      },
+      {
+        "date": "Oct 9",
+        "price": 112.29,
+        "volume": 5220577
+      },
+      {
+        "date": "Oct 10",
+        "price": 111.92,
+        "volume": 2877194
+      },
+      {
+        "date": "Oct 11",
+        "price": 110.54,
+        "volume": 2557232
+      },
+      {
+        "date": "Oct 12",
+        "price": 110.92,
+        "volume": 1856816
+      },
+      {
+        "date": "Oct 13",
+        "price": 112.18,
+        "volume": 1851257
+      },
+      {
+        "date": "Oct 14",
+        "price": 110.71,
+        "volume": 5362431
+      },
+      {
+        "date": "Oct 15",
+        "price": 110.51,
+        "volume": 2420923
+      },
+      {
+        "date": "Oct 16",
+        "price": 111.38,
+        "volume": 4958425
+      },
+      {
+        "date": "Oct 17",
+        "price": 112.96,
+        "volume": 6180178
+      },
+      {
+        "date": "Oct 18",
+        "price": 111.7,
+        "volume": 2657840
+      },
+      {
+        "date": "Oct 19",
+        "price": 112.22,
+        "volume": 4600780
+      },
+      {
+        "date": "Oct 20",
+        "price": 111.84,
+        "volume": 3109511
+      },
+      {
+        "date": "Oct 21",
+        "price": 112.73,
+        "volume": 870003
+      },
+      {
+        "date": "Oct 22",
+        "price": 114.04,
+        "volume": 2580085
+      },
+      {
+        "date": "Oct 23",
+        "price": 112.8,
+        "volume": 4249815
+      },
+      {
+        "date": "Oct 24",
+        "price": 113.43,
+        "volume": 2733364
+      }
+    ]
+  },
+  "stockDetails": {
+    "AAPL": {
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "sector": "Technology",
+      "marketCap": "2.63T",
+      "pe": 27.4,
+      "eps": 6.43,
+      "week52High": 199.62,
+      "week52Low": 164.08,
+      "avgVolume": "58.3M",
+      "dividend": "0.25"
+    },
+    "MSFT": {
+      "symbol": "MSFT",
+      "name": "Microsoft Corp.",
+      "sector": "Technology",
+      "marketCap": "3.08T",
+      "pe": 36.2,
+      "eps": 11.45,
+      "week52High": 430.82,
+      "week52Low": 309.45,
+      "avgVolume": "22.1M",
+      "dividend": "0.75"
+    },
+    "NVDA": {
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "sector": "Semiconductors",
+      "marketCap": "2.17T",
+      "pe": 68.9,
+      "eps": 12.96,
+      "week52High": 974,
+      "week52Low": 403,
+      "avgVolume": "41.8M",
+      "dividend": "0.04"
+    },
+    "TSLA": {
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "sector": "Automotive",
+      "marketCap": "555B",
+      "pe": 42.1,
+      "eps": 4.3,
+      "week52High": 299.29,
+      "week52Low": 138.8,
+      "avgVolume": "98.6M",
+      "dividend": "—"
+    },
+    "GOOGL": {
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "sector": "Technology",
+      "marketCap": "2.04T",
+      "pe": 24.8,
+      "eps": 6.52,
+      "week52High": 191.75,
+      "week52Low": 120.21,
+      "avgVolume": "24.9M",
+      "dividend": "—"
+    },
+    "META": {
+      "symbol": "META",
+      "name": "Meta Platforms Inc.",
+      "sector": "Technology",
+      "marketCap": "1.32T",
+      "pe": 26.5,
+      "eps": 14.87,
+      "week52High": 531.49,
+      "week52Low": 274.38,
+      "avgVolume": "15.4M",
+      "dividend": "0.50"
+    },
+    "PLTR": {
+      "symbol": "PLTR",
+      "name": "PLTR Corporation",
+      "sector": "Equities & Global Markets",
+      "marketCap": "0.92T",
+      "pe": 42.4,
+      "eps": 6.54,
+      "week52High": 101.25,
+      "week52Low": 60.75,
+      "avgVolume": "25.5M",
+      "dividend": "0.97"
+    },
+    "TOP10": {
+      "symbol": "TOP10",
+      "name": "TOP10 Corporation",
+      "sector": "Equities & Global Markets",
+      "marketCap": "1.18T",
+      "pe": 21.3,
+      "eps": 7.33,
+      "week52High": 337.5,
+      "week52Low": 202.5,
+      "avgVolume": "37.5M",
+      "dividend": "0.65"
+    },
+    "TCS.NS": {
+      "symbol": "TCS.NS",
+      "name": "TCS.NS Corporation",
+      "sector": "Equities & Global Markets",
+      "marketCap": "0.64T",
+      "pe": 23.1,
+      "eps": 8.68,
+      "week52High": 195,
+      "week52Low": 117,
+      "avgVolume": "27.5M",
+      "dividend": "1.45"
+    },
+    "TATASTEEL.NS": {
+      "symbol": "TATASTEEL.NS",
+      "name": "TATASTEEL.NS Corporation",
+      "sector": "Equities & Global Markets",
+      "marketCap": "0.40T",
+      "pe": 44,
+      "eps": 3.14,
+      "week52High": 297.5,
+      "week52Low": 178.5,
+      "avgVolume": "24.8M",
+      "dividend": "0.54"
+    },
+    "JIO": {
+      "symbol": "JIO",
+      "name": "JIO Corporation",
+      "sector": "Equities & Global Markets",
+      "marketCap": "0.82T",
+      "pe": 38.4,
+      "eps": 9.71,
+      "week52High": 171.25,
+      "week52Low": 102.75,
+      "avgVolume": "49.6M",
+      "dividend": "0.81"
+    },
+    "PWL.NS": {
+      "symbol": "PWL.NS",
+      "name": "PWL.NS Corporation",
+      "sector": "Equities & Global Markets",
+      "marketCap": "0.30T",
+      "pe": 29.4,
+      "eps": 3.21,
+      "week52High": 138.75,
+      "week52Low": 83.25,
+      "avgVolume": "14.0M",
+      "dividend": "0.47"
+    }
+  },
+  "aiRecommendations": [
+    {
+      "id": "rec_001",
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "recommendation": "BUY",
+      "confidence": 94,
+      "riskLevel": "Medium",
+      "targetPrice": 1050,
+      "currentPrice": 880,
+      "upside": 19.3,
+      "aiAnalysis": "NVIDIA's dominant position in AI accelerator chips and continued data center growth present a compelling buying opportunity. Strong earnings momentum and expanding software ecosystem (CUDA, NIM) support sustained premium valuation.",
+      "timestamp": "2024-03-15T10:30:00Z",
+      "blockchainTxHash": "0x3a8f9b2c1d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_AAPL_1791826142895",
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "recommendation": "HOLD",
+      "confidence": 73,
+      "riskLevel": "Low",
+      "currentPrice": 339.43,
+      "targetPrice": 346.22,
+      "upside": 2,
+      "predictionHorizon": "14 Trading Days",
+      "indicators": {
+        "currentPrice": 339.43,
+        "sma10": 334.61,
+        "sma20": 335.71,
+        "ema12": 335.82,
+        "ema26": 332.64,
+        "macd": 3.18,
+        "rsi14": 58.9,
+        "volatility": 16.92
+      },
+      "keyFactors": [
+        "Bearish moving average alignment: 10-day SMA ($334.61) is below 20-day SMA ($335.71)",
+        "Price is trading above short-term trend line ($334.61)",
+        "RSI at 58.9 indicates healthy positive momentum",
+        "MACD spread is positive (+3.18) confirming upward momentum"
+      ],
+      "aiAnalysis": "HOLD rating generated for AAPL based on multi-factor momentum and trend modeling. Bearish moving average alignment: 10-day SMA ($334.61) is below 20-day SMA ($335.71). Historical volatility stands at 16.92%.",
+      "modelVersion": "SecureStock-AI Ensemble v3.2",
+      "disclaimer": "AI prediction based on statistical time-series indicators. Not personalized financial advice.",
+      "timestamp": "2026-10-12T17:29:02.895Z",
+      "blockchainTxHash": "0x15a397317743f45f7844e3ed1949e5fb042348af2abbc2d86946a42ee56b4263",
+      "blockchainStatus": "Verified"
+    },
+    {
+      "id": "rec_003",
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "recommendation": "SELL",
+      "confidence": 82,
+      "riskLevel": "High",
+      "targetPrice": 140,
+      "currentPrice": 175,
+      "upside": -20,
+      "aiAnalysis": "Increasing global EV competition and margin compression from price cuts create notable downside volatility. Energy storage growth offers long-term value, but automotive margins remain under pressure.",
+      "timestamp": "2024-03-14T14:45:00Z",
+      "blockchainTxHash": "0x9c8b7a6f5e4d3c2b1a0f9e8d7c6b5a4f3e2d1c0",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.1"
+    },
+    {
+      "id": "rec_004",
+      "symbol": "MSFT",
+      "name": "Microsoft Corp.",
+      "recommendation": "BUY",
+      "confidence": 91,
+      "riskLevel": "Low",
+      "targetPrice": 470,
+      "currentPrice": 415,
+      "upside": 13.3,
+      "aiAnalysis": "Azure enterprise cloud growth coupled with commercial Copilot deployment drives recurring software revenue. Strong balance sheet and resilient commercial contracts offer safe harbor growth.",
+      "timestamp": "2024-03-14T11:00:00Z",
+      "blockchainTxHash": "0x4f5e6d7c8b9a0f1e2d3c4b5a6f7e8d9c0b1a2f3",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_005",
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "recommendation": "BUY",
+      "confidence": 87,
+      "riskLevel": "Medium",
+      "targetPrice": 200,
+      "currentPrice": 165,
+      "upside": 21.2,
+      "aiAnalysis": "Google Cloud accelerating with generative AI workloads. YouTube monetization and advertising demand resilient. Attractive relative valuation compared to Big Tech peers.",
+      "timestamp": "2024-03-13T16:20:00Z",
+      "blockchainTxHash": "0x7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6",
+      "blockchainStatus": "Pending",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_006",
+      "symbol": "META",
+      "name": "Meta Platforms Inc.",
+      "recommendation": "BUY",
+      "confidence": 89,
+      "riskLevel": "Medium",
+      "targetPrice": 600,
+      "currentPrice": 510,
+      "upside": 17.6,
+      "aiAnalysis": "Strong monetization through AI-driven content ranking and Advantage+ ad suite. Cost discipline and massive free cash flow generation provide downside protection.",
+      "timestamp": "2024-03-13T09:30:00Z",
+      "blockchainTxHash": "0x2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.1"
+    },
+    {
+      "id": "rec_pltr_2680",
+      "symbol": "PLTR",
+      "name": "PLTR Corporation",
+      "recommendation": "HOLD",
+      "confidence": 89,
+      "riskLevel": "Low",
+      "targetPrice": 79.8,
+      "currentPrice": 84,
+      "upside": -5,
+      "aiAnalysis": "Dynamic market analysis for PLTR: Quantitative indicators demonstrate stable technical support near $77.28. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-07T11:14:02.680Z",
+      "blockchainTxHash": "0xcc42fd31dbbd3a950d0d26d5f0d84eec73a927a5",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_top10_2341",
+      "symbol": "TOP10",
+      "name": "TOP10 Corporation",
+      "recommendation": "HOLD",
+      "confidence": 93,
+      "riskLevel": "Medium",
+      "targetPrice": 260.55,
+      "currentPrice": 274.26,
+      "upside": -5,
+      "aiAnalysis": "Dynamic market analysis for TOP10: Quantitative indicators demonstrate stable technical support near $252.32. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-12T17:39:22.341Z",
+      "blockchainTxHash": "0x3260f7eaeac4efed6fa0cc8ec677896c8ed83870",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_tcs.ns_5831",
+      "symbol": "TCS.NS",
+      "name": "TCS.NS Corporation",
+      "recommendation": "HOLD",
+      "confidence": 78,
+      "riskLevel": "Medium",
+      "targetPrice": 147.83,
+      "currentPrice": 155.61,
+      "upside": -5,
+      "aiAnalysis": "Dynamic market analysis for TCS.NS: Quantitative indicators demonstrate stable technical support near $143.16. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-12T17:43:35.831Z",
+      "blockchainTxHash": "0xee846e5856a70806b65f7c53796f34f7f1bd6964",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_tatasteel.ns_2480",
+      "symbol": "TATASTEEL.NS",
+      "name": "TATASTEEL.NS Corporation",
+      "recommendation": "HOLD",
+      "confidence": 83,
+      "riskLevel": "Medium",
+      "targetPrice": 228.05,
+      "currentPrice": 240.05,
+      "upside": -5,
+      "aiAnalysis": "Dynamic market analysis for TATASTEEL.NS: Quantitative indicators demonstrate stable technical support near $220.85. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-12T17:54:32.480Z",
+      "blockchainTxHash": "0xb86aaf8bd2ad83fe3834308c5d0d6430abc9697a",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_jio_1970",
+      "symbol": "JIO",
+      "name": "JIO Corporation",
+      "recommendation": "HOLD",
+      "confidence": 96,
+      "riskLevel": "Low",
+      "targetPrice": 135.57,
+      "currentPrice": 142.71,
+      "upside": -5,
+      "aiAnalysis": "Dynamic market analysis for JIO: Quantitative indicators demonstrate stable technical support near $131.29. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-24T12:23:21.970Z",
+      "blockchainTxHash": "0x424f8923433e546eddefde78433fc1bfee689483",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_pwl.ns_0008",
+      "symbol": "PWL.NS",
+      "name": "PWL.NS Corporation",
+      "recommendation": "BUY",
+      "confidence": 85,
+      "riskLevel": "Low",
+      "targetPrice": 133.85,
+      "currentPrice": 113.43,
+      "upside": 18,
+      "aiAnalysis": "Dynamic market analysis for PWL.NS: Quantitative indicators demonstrate stable technical support near $104.36. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-24T12:25:30.008Z",
+      "blockchainTxHash": "0x5e0f0765db6360753ac3d68e7abf40a59f01e8fb",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    }
+  ],
+  "blockchainRecords": [
+    {
+      "recommendationId": "rec_AAPL_1791826142895",
+      "symbol": "AAPL",
+      "txHash": "0x15a397317743f45f7844e3ed1949e5fb042348af2abbc2d86946a42ee56b4263",
+      "blockNumber": 19824614,
+      "timestamp": "2026-10-12T17:29:02.895Z",
+      "network": "Ethereum Sepolia Testnet",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 28450,
+      "confirmations": 12,
+      "status": "Verified",
+      "dataHash": "0x1ad313026be38e9162072bf4ff6972a3ea8d8d831f6a8bd431133ac6d82e11e3",
+      "analyst": "0x71C638a1498B1a9F4770e28f244199B99E981e4b",
+      "explorerUrl": "https://sepolia.etherscan.io/tx/0x15a397317743f45f7844e3ed1949e5fb042348af2abbc2d86946a42ee56b4263"
+    },
+    {
+      "recommendationId": "rec_001",
+      "symbol": "NVDA",
+      "txHash": "0x3a8f9b2c1d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a",
+      "blockNumber": 19824500,
+      "timestamp": "2024-03-15T10:30:00Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 28450,
+      "confirmations": 128,
+      "status": "Verified",
+      "dataHash": "0xf71c0d764eb8421927075090c8a51fd212cca64cefa7c2c040e4d2e34c28d746"
+    },
+    {
+      "recommendationId": "rec_002",
+      "symbol": "AAPL",
+      "txHash": "0x1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0",
+      "blockNumber": 19824642,
+      "timestamp": "2024-03-15T09:15:00Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 29170,
+      "confirmations": 116,
+      "status": "Verified",
+      "dataHash": "0x3a8b074c30a85b1ebdb2c654c3b291985e4930bb6a2668ddd71ec27f974b5197"
+    },
+    {
+      "recommendationId": "rec_003",
+      "symbol": "TSLA",
+      "txHash": "0x9c8b7a6f5e4d3c2b1a0f9e8d7c6b5a4f3e2d1c0",
+      "blockNumber": 19824784,
+      "timestamp": "2024-03-14T14:45:00Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 29890,
+      "confirmations": 104,
+      "status": "Verified",
+      "dataHash": "0xc4f7fdcc08bf49337269fbdb6c97f02961f46bb010838802ad1511fbffc74514"
+    },
+    {
+      "recommendationId": "rec_004",
+      "symbol": "MSFT",
+      "txHash": "0x4f5e6d7c8b9a0f1e2d3c4b5a6f7e8d9c0b1a2f3",
+      "blockNumber": 19824926,
+      "timestamp": "2024-03-14T11:00:00Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 30610,
+      "confirmations": 92,
+      "status": "Verified",
+      "dataHash": "0x38112ee5b30ff90302a35a31c5e59c115009e4200c2963ec10e2833d0cfac614"
+    },
+    {
+      "recommendationId": "rec_005",
+      "symbol": "GOOGL",
+      "txHash": "0x7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6",
+      "blockNumber": 19825068,
+      "timestamp": "2024-03-13T16:20:00Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 31330,
+      "confirmations": 80,
+      "status": "Pending",
+      "dataHash": "0xf4f93463758b501613942e511bad3eea32d9584061a4e6abeb4e26dfffba141c"
+    },
+    {
+      "recommendationId": "rec_006",
+      "symbol": "META",
+      "txHash": "0x2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1",
+      "blockNumber": 19825210,
+      "timestamp": "2024-03-13T09:30:00Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 32050,
+      "confirmations": 68,
+      "status": "Verified",
+      "dataHash": "0xb9d20445cc81c681147bfed689525e720c514b696369c799beb3ebc5c46b1324"
+    },
+    {
+      "recommendationId": "rec_pltr_2680",
+      "symbol": "PLTR",
+      "txHash": "0xcc42fd31dbbd3a950d0d26d5f0d84eec73a927a5",
+      "blockNumber": 19826839,
+      "timestamp": "2026-10-07T11:14:02.680Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 28372,
+      "confirmations": 82,
+      "status": "Verified",
+      "dataHash": "0x20c882d7f4ac0eddecaff55d1439da190d4f80f774659ee105e31ee6b2e4e6c4"
+    },
+    {
+      "recommendationId": "rec_top10_2341",
+      "symbol": "TOP10",
+      "txHash": "0x3260f7eaeac4efed6fa0cc8ec677896c8ed83870",
+      "blockNumber": 19825994,
+      "timestamp": "2026-10-12T17:39:22.341Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 27569,
+      "confirmations": 56,
+      "status": "Verified",
+      "dataHash": "0xb9deaac1d6556ab2a784849673387e6d7b42b45a252fbcdbd1bd45a08b96bf95"
+    },
+    {
+      "recommendationId": "rec_tcs.ns_5831",
+      "symbol": "TCS.NS",
+      "txHash": "0xee846e5856a70806b65f7c53796f34f7f1bd6964",
+      "blockNumber": 19825071,
+      "timestamp": "2026-10-12T17:43:35.831Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 30655,
+      "confirmations": 82,
+      "status": "Verified",
+      "dataHash": "0x82855fa44dc36d28a18969cd84a96ae5d0d8f0784d40ff08ecdcdc20ce11a9ae"
+    },
+    {
+      "recommendationId": "rec_tatasteel.ns_2480",
+      "symbol": "TATASTEEL.NS",
+      "txHash": "0xb86aaf8bd2ad83fe3834308c5d0d6430abc9697a",
+      "blockNumber": 19826647,
+      "timestamp": "2026-10-12T17:54:32.480Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 27075,
+      "confirmations": 116,
+      "status": "Verified",
+      "dataHash": "0x892899f99361498ba25811430b2b2e76f6683775d6bfbbbb3ecb839017b3237c"
+    },
+    {
+      "recommendationId": "rec_jio_1970",
+      "symbol": "JIO",
+      "txHash": "0x424f8923433e546eddefde78433fc1bfee689483",
+      "blockNumber": 19825739,
+      "timestamp": "2026-10-24T12:23:21.970Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 31944,
+      "confirmations": 103,
+      "status": "Verified",
+      "dataHash": "0x17306edd70c94bc2299331919adcf9315f00ca346a6f9e3dbc7f4562183baced"
+    },
+    {
+      "recommendationId": "rec_pwl.ns_0008",
+      "symbol": "PWL.NS",
+      "txHash": "0x5e0f0765db6360753ac3d68e7abf40a59f01e8fb",
+      "blockNumber": 19826964,
+      "timestamp": "2026-10-24T12:25:30.008Z",
+      "network": "Ethereum Mainnet (PoS)",
+      "contractAddress": "0x5eC970c4D99b21C42E570FaC77dBcfF34A5Eb619",
+      "gasUsed": 29029,
+      "confirmations": 55,
+      "status": "Verified",
+      "dataHash": "0x13604a8c55d92eb957e7cd3456c9b0960480bc827599bac77cb870589f933e5b"
+    }
+  ],
+  "recommendationHistory": [
+    {
+      "id": "rec_pwl.ns_0008",
+      "symbol": "PWL.NS",
+      "name": "PWL.NS Corporation",
+      "recommendation": "BUY",
+      "confidence": 85,
+      "riskLevel": "Low",
+      "targetPrice": 133.85,
+      "currentPrice": 113.43,
+      "upside": 18,
+      "aiAnalysis": "Dynamic market analysis for PWL.NS: Quantitative indicators demonstrate stable technical support near $104.36. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-24T12:25:30.008Z",
+      "blockchainTxHash": "0x5e0f0765db6360753ac3d68e7abf40a59f01e8fb",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_jio_1970",
+      "symbol": "JIO",
+      "name": "JIO Corporation",
+      "recommendation": "HOLD",
+      "confidence": 96,
+      "riskLevel": "Low",
+      "targetPrice": 135.57,
+      "currentPrice": 142.71,
+      "upside": -5,
+      "aiAnalysis": "Dynamic market analysis for JIO: Quantitative indicators demonstrate stable technical support near $131.29. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-24T12:23:21.970Z",
+      "blockchainTxHash": "0x424f8923433e546eddefde78433fc1bfee689483",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_tatasteel.ns_2480",
+      "symbol": "TATASTEEL.NS",
+      "name": "TATASTEEL.NS Corporation",
+      "recommendation": "HOLD",
+      "confidence": 83,
+      "riskLevel": "Medium",
+      "targetPrice": 228.05,
+      "currentPrice": 240.05,
+      "upside": -5,
+      "aiAnalysis": "Dynamic market analysis for TATASTEEL.NS: Quantitative indicators demonstrate stable technical support near $220.85. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-12T17:54:32.480Z",
+      "blockchainTxHash": "0xb86aaf8bd2ad83fe3834308c5d0d6430abc9697a",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_tcs.ns_5831",
+      "symbol": "TCS.NS",
+      "name": "TCS.NS Corporation",
+      "recommendation": "HOLD",
+      "confidence": 78,
+      "riskLevel": "Medium",
+      "targetPrice": 147.83,
+      "currentPrice": 155.61,
+      "upside": -5,
+      "aiAnalysis": "Dynamic market analysis for TCS.NS: Quantitative indicators demonstrate stable technical support near $143.16. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-12T17:43:35.831Z",
+      "blockchainTxHash": "0xee846e5856a70806b65f7c53796f34f7f1bd6964",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_top10_2341",
+      "symbol": "TOP10",
+      "name": "TOP10 Corporation",
+      "recommendation": "HOLD",
+      "confidence": 93,
+      "riskLevel": "Medium",
+      "targetPrice": 260.55,
+      "currentPrice": 274.26,
+      "upside": -5,
+      "aiAnalysis": "Dynamic market analysis for TOP10: Quantitative indicators demonstrate stable technical support near $252.32. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-12T17:39:22.341Z",
+      "blockchainTxHash": "0x3260f7eaeac4efed6fa0cc8ec677896c8ed83870",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_AAPL_1791826142895",
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "recommendation": "HOLD",
+      "confidence": 73,
+      "riskLevel": "Low",
+      "currentPrice": 339.43,
+      "targetPrice": 346.22,
+      "upside": 2,
+      "predictionHorizon": "14 Trading Days",
+      "indicators": {
+        "currentPrice": 339.43,
+        "sma10": 334.61,
+        "sma20": 335.71,
+        "ema12": 335.82,
+        "ema26": 332.64,
+        "macd": 3.18,
+        "rsi14": 58.9,
+        "volatility": 16.92
+      },
+      "keyFactors": [
+        "Bearish moving average alignment: 10-day SMA ($334.61) is below 20-day SMA ($335.71)",
+        "Price is trading above short-term trend line ($334.61)",
+        "RSI at 58.9 indicates healthy positive momentum",
+        "MACD spread is positive (+3.18) confirming upward momentum"
+      ],
+      "aiAnalysis": "HOLD rating generated for AAPL based on multi-factor momentum and trend modeling. Bearish moving average alignment: 10-day SMA ($334.61) is below 20-day SMA ($335.71). Historical volatility stands at 16.92%.",
+      "modelVersion": "SecureStock-AI Ensemble v3.2",
+      "disclaimer": "AI prediction based on statistical time-series indicators. Not personalized financial advice.",
+      "timestamp": "2026-10-12T17:29:02.895Z",
+      "blockchainTxHash": "0x15a397317743f45f7844e3ed1949e5fb042348af2abbc2d86946a42ee56b4263",
+      "blockchainStatus": "Verified"
+    },
+    {
+      "id": "rec_pltr_2680",
+      "symbol": "PLTR",
+      "name": "PLTR Corporation",
+      "recommendation": "HOLD",
+      "confidence": 89,
+      "riskLevel": "Low",
+      "targetPrice": 79.8,
+      "currentPrice": 84,
+      "upside": -5,
+      "aiAnalysis": "Dynamic market analysis for PLTR: Quantitative indicators demonstrate stable technical support near $77.28. Neural network momentum models signal favorable entry criteria.",
+      "timestamp": "2026-10-07T11:14:02.680Z",
+      "blockchainTxHash": "0xcc42fd31dbbd3a950d0d26d5f0d84eec73a927a5",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_001",
+      "symbol": "NVDA",
+      "name": "NVIDIA Corporation",
+      "recommendation": "BUY",
+      "confidence": 94,
+      "riskLevel": "Medium",
+      "targetPrice": 1050,
+      "currentPrice": 880,
+      "upside": 19.3,
+      "aiAnalysis": "NVIDIA's dominant position in AI accelerator chips and continued data center growth present a compelling buying opportunity. Strong earnings momentum and expanding software ecosystem (CUDA, NIM) support sustained premium valuation.",
+      "timestamp": "2024-03-15T10:30:00Z",
+      "blockchainTxHash": "0x3a8f9b2c1d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_002",
+      "symbol": "AAPL",
+      "name": "Apple Inc.",
+      "recommendation": "HOLD",
+      "confidence": 78,
+      "riskLevel": "Low",
+      "targetPrice": 195,
+      "currentPrice": 170,
+      "upside": 14.7,
+      "aiAnalysis": "Apple's ecosystem lock-in and services growth remain strengths. Near-term headwinds from consumer hardware replacement cycles balance against high gross margins and stable cash flows.",
+      "timestamp": "2024-03-15T09:15:00Z",
+      "blockchainTxHash": "0x1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_003",
+      "symbol": "TSLA",
+      "name": "Tesla Inc.",
+      "recommendation": "SELL",
+      "confidence": 82,
+      "riskLevel": "High",
+      "targetPrice": 140,
+      "currentPrice": 175,
+      "upside": -20,
+      "aiAnalysis": "Increasing global EV competition and margin compression from price cuts create notable downside volatility. Energy storage growth offers long-term value, but automotive margins remain under pressure.",
+      "timestamp": "2024-03-14T14:45:00Z",
+      "blockchainTxHash": "0x9c8b7a6f5e4d3c2b1a0f9e8d7c6b5a4f3e2d1c0",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.1"
+    },
+    {
+      "id": "rec_004",
+      "symbol": "MSFT",
+      "name": "Microsoft Corp.",
+      "recommendation": "BUY",
+      "confidence": 91,
+      "riskLevel": "Low",
+      "targetPrice": 470,
+      "currentPrice": 415,
+      "upside": 13.3,
+      "aiAnalysis": "Azure enterprise cloud growth coupled with commercial Copilot deployment drives recurring software revenue. Strong balance sheet and resilient commercial contracts offer safe harbor growth.",
+      "timestamp": "2024-03-14T11:00:00Z",
+      "blockchainTxHash": "0x4f5e6d7c8b9a0f1e2d3c4b5a6f7e8d9c0b1a2f3",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_005",
+      "symbol": "GOOGL",
+      "name": "Alphabet Inc.",
+      "recommendation": "BUY",
+      "confidence": 87,
+      "riskLevel": "Medium",
+      "targetPrice": 200,
+      "currentPrice": 165,
+      "upside": 21.2,
+      "aiAnalysis": "Google Cloud accelerating with generative AI workloads. YouTube monetization and advertising demand resilient. Attractive relative valuation compared to Big Tech peers.",
+      "timestamp": "2024-03-13T16:20:00Z",
+      "blockchainTxHash": "0x7a8b9c0d1e2f3a4b5c6d7e8f9a0b1c2d3e4f5a6",
+      "blockchainStatus": "Pending",
+      "modelVersion": "SecureStock-AI v3.2"
+    },
+    {
+      "id": "rec_006",
+      "symbol": "META",
+      "name": "Meta Platforms Inc.",
+      "recommendation": "BUY",
+      "confidence": 89,
+      "riskLevel": "Medium",
+      "targetPrice": 600,
+      "currentPrice": 510,
+      "upside": 17.6,
+      "aiAnalysis": "Strong monetization through AI-driven content ranking and Advantage+ ad suite. Cost discipline and massive free cash flow generation provide downside protection.",
+      "timestamp": "2024-03-13T09:30:00Z",
+      "blockchainTxHash": "0x2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1",
+      "blockchainStatus": "Verified",
+      "modelVersion": "SecureStock-AI v3.1"
+    },
+    {
+      "id": "rec_007",
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "recommendation": "BUY",
+      "confidence": 85,
+      "riskLevel": "Medium",
+      "targetPrice": 210,
+      "currentPrice": 175,
+      "upside": 20,
+      "aiAnalysis": "MI300 GPU accelerator adoption expanding among hyper-scalers.",
+      "timestamp": "2024-03-12T10:00:00Z",
+      "blockchainStatus": "Verified",
+      "blockchainTxHash": "0x5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4",
+      "modelVersion": "SecureStock-AI v3.1"
+    },
+    {
+      "id": "rec_008",
+      "symbol": "AMZN",
+      "name": "Amazon.com Inc.",
+      "recommendation": "BUY",
+      "confidence": 88,
+      "riskLevel": "Low",
+      "targetPrice": 220,
+      "currentPrice": 185,
+      "upside": 18.9,
+      "aiAnalysis": "AWS re-accelerating; operating margin expansion in North America retail.",
+      "timestamp": "2024-03-12T08:30:00Z",
+      "blockchainStatus": "Verified",
+      "blockchainTxHash": "0x6d7e8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5",
+      "modelVersion": "SecureStock-AI v3.1"
+    },
+    {
+      "id": "rec_009",
+      "symbol": "NFLX",
+      "name": "Netflix Inc.",
+      "recommendation": "HOLD",
+      "confidence": 72,
+      "riskLevel": "Medium",
+      "targetPrice": 650,
+      "currentPrice": 620,
+      "upside": 4.8,
+      "aiAnalysis": "Paid sharing and ad-supported tiers driving net paid adds, but valuation is elevated.",
+      "timestamp": "2024-03-11T14:00:00Z",
+      "blockchainStatus": "Verified",
+      "blockchainTxHash": "0x8f9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7",
+      "modelVersion": "SecureStock-AI v3.0"
+    },
+    {
+      "id": "rec_010",
+      "symbol": "INTC",
+      "name": "Intel Corporation",
+      "recommendation": "SELL",
+      "confidence": 79,
+      "riskLevel": "High",
+      "targetPrice": 32,
+      "currentPrice": 42,
+      "upside": -23.8,
+      "aiAnalysis": "Foundry business experiencing substantial operating losses; data center share losses.",
+      "timestamp": "2024-03-11T09:00:00Z",
+      "blockchainStatus": "Failed",
+      "blockchainTxHash": "0x9a0b1c2d3e4f5a6b7c8d9e0f1a2b3c4d5e6f7a8",
+      "modelVersion": "SecureStock-AI v3.0"
+    }
+  ],
+  "marketOverview": [
+    {
+      "id": "sp500",
+      "symbol": "S&P 500",
+      "name": "S&P 500 Index",
+      "price": 5187.67,
+      "change": 28.45,
+      "changePct": 0.55,
+      "trend": "up"
+    },
+    {
+      "id": "nasdaq",
+      "symbol": "NASDAQ",
+      "name": "NASDAQ Composite",
+      "price": 16274.94,
+      "change": -42.18,
+      "changePct": -0.26,
+      "trend": "down"
+    },
+    {
+      "id": "btc",
+      "symbol": "BTC/USD",
+      "name": "Bitcoin",
+      "price": 67842,
+      "change": 1234.5,
+      "changePct": 1.85,
+      "trend": "up"
+    },
+    {
+      "id": "eth",
+      "symbol": "ETH/USD",
+      "name": "Ethereum",
+      "price": 3521.4,
+      "change": -88.2,
+      "changePct": -2.44,
+      "trend": "down"
+    }
+  ],
+  "dashboardChartData": [
+    {
+      "date": "Sep 8",
+      "sp500": 5007.26,
+      "nasdaq": 15538.78,
+      "btc": 60101.21
+    },
+    {
+      "date": "Sep 9",
+      "sp500": 5075.91,
+      "nasdaq": 15610.53,
+      "btc": 62063.86
+    },
+    {
+      "date": "Sep 10",
+      "sp500": 5134.6,
+      "nasdaq": 15784.82,
+      "btc": 63140.29
+    },
+    {
+      "date": "Sep 11",
+      "sp500": 5140.03,
+      "nasdaq": 15873.08,
+      "btc": 63449.14
+    },
+    {
+      "date": "Sep 12",
+      "sp500": 5145.63,
+      "nasdaq": 15945.5,
+      "btc": 63666.29
+    },
+    {
+      "date": "Sep 13",
+      "sp500": 5139.81,
+      "nasdaq": 15896.37,
+      "btc": 62916.43
+    },
+    {
+      "date": "Sep 14",
+      "sp500": 5147.59,
+      "nasdaq": 15980.57,
+      "btc": 61721.82
+    },
+    {
+      "date": "Sep 15",
+      "sp500": 5106.19,
+      "nasdaq": 15921.93,
+      "btc": 60262.99
+    },
+    {
+      "date": "Sep 16",
+      "sp500": 5058.84,
+      "nasdaq": 15926.37,
+      "btc": 59174.48
+    },
+    {
+      "date": "Sep 17",
+      "sp500": 5007.55,
+      "nasdaq": 15870.96,
+      "btc": 58640.5
+    },
+    {
+      "date": "Sep 18",
+      "sp500": 4979.88,
+      "nasdaq": 15819.38,
+      "btc": 58755.82
+    },
+    {
+      "date": "Sep 19",
+      "sp500": 4974.47,
+      "nasdaq": 15697.19,
+      "btc": 59867.38
+    },
+    {
+      "date": "Sep 20",
+      "sp500": 4966.75,
+      "nasdaq": 15586.84,
+      "btc": 61259.39
+    },
+    {
+      "date": "Sep 21",
+      "sp500": 5011.67,
+      "nasdaq": 15561.77,
+      "btc": 63016.44
+    },
+    {
+      "date": "Sep 22",
+      "sp500": 5031.35,
+      "nasdaq": 15577.59,
+      "btc": 64139.13
+    },
+    {
+      "date": "Sep 23",
+      "sp500": 5077.49,
+      "nasdaq": 15515.61,
+      "btc": 65369.32
+    },
+    {
+      "date": "Sep 24",
+      "sp500": 5110.89,
+      "nasdaq": 15577.72,
+      "btc": 65562.18
+    },
+    {
+      "date": "Sep 25",
+      "sp500": 5200.79,
+      "nasdaq": 15565.29,
+      "btc": 65044.24
+    },
+    {
+      "date": "Sep 26",
+      "sp500": 5218.1,
+      "nasdaq": 15593.22,
+      "btc": 64289.09
+    },
+    {
+      "date": "Sep 27",
+      "sp500": 5247.31,
+      "nasdaq": 15767.98,
+      "btc": 62862.45
+    },
+    {
+      "date": "Sep 28",
+      "sp500": 5266.55,
+      "nasdaq": 15862.99,
+      "btc": 61675.61
+    },
+    {
+      "date": "Sep 29",
+      "sp500": 5232.15,
+      "nasdaq": 15934.64,
+      "btc": 60985.72
+    },
+    {
+      "date": "Sep 30",
+      "sp500": 5235.98,
+      "nasdaq": 16069.71,
+      "btc": 60361.86
+    },
+    {
+      "date": "Oct 1",
+      "sp500": 5199.21,
+      "nasdaq": 16125.84,
+      "btc": 61014.27
+    },
+    {
+      "date": "Oct 2",
+      "sp500": 5134.01,
+      "nasdaq": 16193.65,
+      "btc": 62270.5
+    },
+    {
+      "date": "Oct 3",
+      "sp500": 5121.35,
+      "nasdaq": 16291.38,
+      "btc": 63912.89
+    },
+    {
+      "date": "Oct 4",
+      "sp500": 5085.47,
+      "nasdaq": 16341.25,
+      "btc": 65314.18
+    },
+    {
+      "date": "Oct 5",
+      "sp500": 5046.82,
+      "nasdaq": 16372.29,
+      "btc": 66937.98
+    },
+    {
+      "date": "Oct 6",
+      "sp500": 5086.17,
+      "nasdaq": 16303.81,
+      "btc": 67582.37
+    },
+    {
+      "date": "Oct 7",
+      "sp500": 5095.05,
+      "nasdaq": 16308.59,
+      "btc": 67526.92
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "type": "recommendation",
+      "message": "New AI recommendation for NVDA: BUY with 94% confidence",
+      "time": "2 min ago",
+      "read": true
+    },
+    {
+      "id": 2,
+      "type": "blockchain",
+      "message": "Blockchain verification confirmed on Ethereum block #19824642 for MSFT",
+      "time": "15 min ago",
+      "read": false
+    },
+    {
+      "id": 3,
+      "type": "alert",
+      "message": "TSLA dropped 3.2% – review current SELL recommendation",
+      "time": "1 hr ago",
+      "read": true
+    },
+    {
+      "id": 4,
+      "type": "system",
+      "message": "SecureStock AI Model v3.2 active – Smart contract ledger validated",
+      "time": "3 hr ago",
+      "read": true
+    }
+  ]
+}

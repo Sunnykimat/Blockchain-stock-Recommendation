@@ -41,7 +41,7 @@ export default function Sidebar({ open, onToggle }) {
       <div className="flex items-center gap-3 px-4 py-5 border-b border-white/5">
         <div
           className="flex-shrink-0 w-8 h-8 rounded-lg flex items-center justify-center"
-          style={{ background: "linear-gradient(135deg, #00ffd1, #00c9a0)" }}
+          style={{ background: "linear-gradient(135deg, #00ff88, #00e676)" }}
         >
           <Zap size={16} className="text-obsidian-950" style={{ color: "#03050a" }} />
         </div>
@@ -84,14 +84,14 @@ export default function Sidebar({ open, onToggle }) {
                   size={17}
                   className={clsx(
                     "flex-shrink-0 transition-colors",
-                    isActive ? "text-[#00ffd1]" : "text-current"
+                    isActive ? "text-[#00e676]" : "text-current"
                   )}
                 />
                 {open && (
                   <span
                     className={clsx(
                       "text-sm whitespace-nowrap transition-colors",
-                      isActive ? "text-[#00ffd1]" : "text-current"
+                      isActive ? "text-[#00e676]" : "text-current"
                     )}
                     style={{ fontFamily: "'DM Sans', sans-serif", fontWeight: 500 }}
                   >
@@ -119,8 +119,8 @@ export default function Sidebar({ open, onToggle }) {
             className="text-xs px-2 py-1 rounded text-center"
             style={{
               fontFamily: "'DM Mono', monospace",
-              color: "rgba(0,255,209,0.5)",
-              background: "rgba(0,255,209,0.05)",
+              color: "rgba(0,230,118,0.5)",
+              background: "rgba(0,230,118,0.05)",
             }}
           >
             Model v3.2 · Chain: Mainnet
@@ -134,8 +134,8 @@ export default function Sidebar({ open, onToggle }) {
         className="absolute -right-3 top-16 w-6 h-6 rounded-full flex items-center justify-center transition-all hover:scale-110 z-30"
         style={{
           background: "#0a1428",
-          border: "1px solid rgba(0,255,209,0.3)",
-          color: "#00ffd1",
+          border: "1px solid rgba(0,230,118,0.3)",
+          color: "#00e676",
         }}
       >
         {open ? <ChevronLeft size={12} /> : <ChevronRight size={12} />}

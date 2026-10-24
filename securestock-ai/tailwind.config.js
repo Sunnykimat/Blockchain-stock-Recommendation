@@ -10,40 +10,42 @@ export default {
       },
       colors: {
         obsidian: {
-          950: "#03050A",
-          900: "#060C14",
-          800: "#0A1428",
-          700: "#0F1E3D",
-          600: "#162547",
+          950: "#040507", // Pure black void
+          900: "#090a0f", // Deep slate black
+          800: "#11131a", // Charcoal card surface
+          700: "#181b24", // Elevated border surface
+          600: "#222634", // Muted interactive surface
         },
-        cyan: {
-          neon: "#00FFD1",
-          bright: "#00E5B8",
-          mid: "#00C9A0",
-          dim: "#008C6F",
-          glow: "rgba(0,255,209,0.15)",
+        emerald: {
+          neon: "#00FF88",
+          electric: "#00E676",
+          bright: "#10B981",
+          glow: "rgba(0, 255, 136, 0.2)",
+          deep: "#044E36",
         },
-        gold: {
-          bright: "#FFD166",
-          mid: "#F0B429",
-          dim: "#B8860B",
+        green: {
+          neon: "#00FF88",
+          electric: "#00E676",
+          mint: "#6EE7B7",
         },
-        success: "#00FF94",
-        danger: "#FF4560",
+        pureWhite: "#FFFFFF",
+        cardDark: "rgba(12, 14, 20, 0.75)",
+        success: "#00FF88",
+        danger: "#FF3355",
         warning: "#FFB020",
       },
       backgroundImage: {
-        "mesh-dark":
-          "radial-gradient(at 40% 20%, #0F1E3D 0px, transparent 50%), radial-gradient(at 80% 0%, #003D2E 0px, transparent 50%), radial-gradient(at 0% 50%, #060C14 0px, transparent 50%)",
-        "glass-card":
-          "linear-gradient(135deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.02) 100%)",
+        "mesh-emerald":
+          "radial-gradient(at 50% 0%, rgba(0, 230, 118, 0.12) 0px, transparent 65%), radial-gradient(at 100% 100%, rgba(16, 185, 129, 0.08) 0px, transparent 55%), radial-gradient(at 0% 50%, rgba(5, 5, 8, 0.95) 0px, transparent 60%)",
+        "glass-emerald":
+          "linear-gradient(135deg, rgba(255, 255, 255, 0.05) 0%, rgba(0, 255, 136, 0.02) 100%)",
       },
       boxShadow: {
-        glass: "0 4px 30px rgba(0,0,0,0.4), inset 0 1px 0 rgba(255,255,255,0.05)",
-        cyan: "0 0 20px rgba(0,255,209,0.3), 0 0 60px rgba(0,255,209,0.1)",
-        "cyan-sm": "0 0 10px rgba(0,255,209,0.2)",
-        gold: "0 0 20px rgba(255,209,102,0.3)",
-        card: "0 8px 32px rgba(0,0,0,0.5)",
+        glass: "0 8px 32px 0 rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.08)",
+        emerald: "0 0 25px rgba(0, 230, 118, 0.35), 0 0 50px rgba(0, 230, 118, 0.15)",
+        "emerald-sm": "0 0 12px rgba(0, 230, 118, 0.25)",
+        "white-sm": "0 0 15px rgba(255, 255, 255, 0.15)",
+        card: "0 12px 40px rgba(0, 0, 0, 0.6)",
       },
       animation: {
         "pulse-slow": "pulse 3s ease-in-out infinite",
@@ -53,8 +55,8 @@ export default {
       },
       keyframes: {
         "glow-pulse": {
-          "0%, 100%": { boxShadow: "0 0 5px rgba(0,255,209,0.3)" },
-          "50%": { boxShadow: "0 0 20px rgba(0,255,209,0.6), 0 0 40px rgba(0,255,209,0.2)" },
+          "0%, 100%": { boxShadow: "0 0 8px rgba(0, 255, 136, 0.3)" },
+          "50%": { boxShadow: "0 0 24px rgba(0, 255, 136, 0.7), 0 0 45px rgba(0, 255, 136, 0.25)" },
         },
         "slide-up": {
           from: { opacity: 0, transform: "translateY(16px)" },
@@ -64,9 +66,6 @@ export default {
           from: { opacity: 0 },
           to: { opacity: 1 },
         },
-      },
-      backdropBlur: {
-        xs: "2px",
       },
     },
   },

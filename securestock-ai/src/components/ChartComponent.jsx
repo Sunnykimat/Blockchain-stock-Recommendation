@@ -24,14 +24,14 @@ const CustomTooltip = ({ active, payload, label, prefix = "$" }) => {
       className="rounded-lg px-3 py-2 text-xs"
       style={{
         background: "#0a1428",
-        border: "1px solid rgba(0,255,209,0.3)",
+        border: "1px solid rgba(0,230,118,0.3)",
         fontFamily: "'DM Mono', monospace",
         boxShadow: "0 8px 24px rgba(0,0,0,0.6)",
       }}
     >
       <p className="text-white/40 mb-1">{label}</p>
       {payload.map((p, i) => (
-        <p key={i} style={{ color: p.color || "#00ffd1" }}>
+        <p key={i} style={{ color: p.color || "#00e676" }}>
           {p.name ? `${p.name}: ` : ""}
           {prefix}{Number(p.value).toLocaleString("en-US", { minimumFractionDigits: 2 })}
         </p>

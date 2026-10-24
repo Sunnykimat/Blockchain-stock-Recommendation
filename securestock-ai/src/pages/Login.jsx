@@ -1,17 +1,26 @@
 // ─────────────────────────────────────────────
 //  pages/Login.jsx
+//  Secure, Responsive Login with Validation, Password Visibility,
+//  Emerald & Obsidian Theme, and Protected Route Redirect
 // ─────────────────────────────────────────────
 import React, { useState, useContext } from "react";
-import { Link, useNavigate } from "react-router-dom";
-import { Mail, Lock, Eye, EyeOff, Zap, AlertCircle } from "lucide-react";
+import { Link, useNavigate, useLocation } from "react-router-dom";
+import { Mail, Lock, Eye, EyeOff, Zap, AlertCircle, ShieldCheck, Sparkles } from "lucide-react";
 import { AuthContext } from "../App";
 import { loginUser } from "../services/api";
 
 export default function Login() {
   const { login } = useContext(AuthContext);
   const navigate = useNavigate();
+  const location = useLocation();
 
-  const [form, setForm] = useState({ email: "", password: "", remember: false });
+  const from = location.state?.from?.pathname || "/dashboard";
+
+  const [form, setForm] = useState({
+    email: "admin@securestock.ai",
+    password: "admin123",
+    remember: true,
+  });
   const [showPass, setShowPass] = useState(false);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
@@ -21,77 +30,107 @@ export default function Login() {
     setForm((f) => ({ ...f, [name]: type === "checkbox" ? checked : value }));
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  const handleExecuteLogin = async (credentials) => {
     setError("");
+    const trimmedEmail = (credentials.email || "").trim().toLowerCase();
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(trimmedEmail)) {
+      setError("Please enter a valid email address.");
+      return;
+    }
+    if (!credentials.password) {
+      setError("Please enter your password.");
+      return;
+    }
+
     setLoading(true);
     try {
-      const { token } = await loginUser(form);
-      if (form.remember) localStorage.setItem("ss_email", form.email);
-      login(token);
-      navigate("/dashboard");
+      const data = await loginUser({ email: trimmedEmail, password: credentials.password });
+      if (credentials.remember) {
+        localStorage.setItem("ss_email", trimmedEmail);
+      } else {
+        localStorage.removeItem("ss_email");
+      }
+      login(data.token, data.user);
+      navigate(from, { replace: true });
     } catch (err) {
-      setError(err.message || "Login failed");
+      setError(err.message || "Invalid email or password.");
     } finally {
       setLoading(false);
     }
   };
 
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    handleExecuteLogin(form);
+  };
+
+  const handleQuickMasterLogin = () => {
+    const masterCreds = { email: "admin@securestock.ai", password: "admin123", remember: true };
+    setForm(masterCreds);
+    handleExecuteLogin(masterCreds);
+  };
+
   return (
     <div
-      className="min-h-screen flex items-center justify-center relative overflow-hidden"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden py-8 px-4"
       style={{
-        background: "radial-gradient(ellipse at 30% 50%, #0f1e3d 0%, #03050a 60%), radial-gradient(ellipse at 80% 20%, #003d2e 0%, transparent 50%)",
+        background:
+          "radial-gradient(ellipse at 30% 50%, #061810 0%, #03050a 60%), radial-gradient(ellipse at 80% 20%, #022617 0%, transparent 50%)",
       }}
     >
-      {/* Decorative grid */}
+      {/* Decorative emerald cyber grid */}
       <div
-        className="absolute inset-0 opacity-20"
+        className="absolute inset-0 opacity-20 pointer-events-none"
         style={{
           backgroundImage:
-            "linear-gradient(rgba(0,255,209,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,255,209,0.05) 1px, transparent 1px)",
+            "linear-gradient(rgba(0,255,136,0.05) 1px, transparent 1px), linear-gradient(90deg, rgba(0,255,136,0.05) 1px, transparent 1px)",
           backgroundSize: "40px 40px",
         }}
       />
 
-      {/* Floating orbs */}
+      {/* Floating ambient glow orbs */}
       <div
-        className="absolute top-20 left-20 w-64 h-64 rounded-full pointer-events-none"
+        className="absolute top-20 left-20 w-72 h-72 rounded-full pointer-events-none"
         style={{
-          background: "radial-gradient(circle, rgba(0,255,209,0.08) 0%, transparent 70%)",
-          filter: "blur(40px)",
+          background: "radial-gradient(circle, rgba(0,255,136,0.08) 0%, transparent 70%)",
+          filter: "blur(50px)",
         }}
       />
       <div
         className="absolute bottom-20 right-20 w-80 h-80 rounded-full pointer-events-none"
         style={{
-          background: "radial-gradient(circle, rgba(0,100,80,0.12) 0%, transparent 70%)",
+          background: "radial-gradient(circle, rgba(16,185,129,0.06) 0%, transparent 70%)",
           filter: "blur(60px)",
         }}
       />
 
-      {/* Glass card */}
+      {/* Glass Card */}
       <div
-        className="glass rounded-2xl p-8 w-full max-w-md relative z-10 animate-slide-up"
-        style={{ boxShadow: "0 24px 64px rgba(0,0,0,0.7), 0 0 0 1px rgba(0,255,209,0.1)" }}
+        className="glass rounded-2xl p-8 w-full max-w-md relative z-10 animate-slide-up border"
+        style={{
+          borderColor: "rgba(0, 255, 136, 0.2)",
+          background: "rgba(10, 15, 24, 0.94)",
+          boxShadow: "0 24px 64px rgba(0,0,0,0.8), 0 0 20px rgba(0,255,136,0.1)",
+        }}
       >
         {/* Logo */}
-        <div className="flex items-center gap-3 mb-8">
+        <div className="flex items-center gap-3 mb-6">
           <div
-            className="w-10 h-10 rounded-xl flex items-center justify-center"
-            style={{ background: "linear-gradient(135deg, #00ffd1, #00c9a0)" }}
+            className="w-10 h-10 rounded-xl flex items-center justify-center flex-shrink-0"
+            style={{ background: "linear-gradient(135deg, #00ff88, #00e676)" }}
           >
             <Zap size={20} style={{ color: "#03050a" }} />
           </div>
           <div>
             <h1
-              className="text-lg font-bold gradient-text-cyan"
+              className="text-lg font-bold text-white tracking-wide"
               style={{ fontFamily: "'Syne', sans-serif" }}
             >
               SecureStock AI
             </h1>
             <p
-              className="text-xs text-white/30"
+              className="text-xs text-white/40"
               style={{ fontFamily: "'DM Mono', monospace" }}
             >
               Blockchain · Intelligence
@@ -99,22 +138,56 @@ export default function Login() {
           </div>
         </div>
 
+        {/* 1-Click Master Account Ribbon */}
+        <div
+          className="rounded-xl p-3.5 mb-6 border transition-all"
+          style={{
+            background: "rgba(0, 255, 136, 0.05)",
+            borderColor: "rgba(0, 255, 136, 0.25)",
+          }}
+        >
+          <div className="flex items-start justify-between gap-2">
+            <div>
+              <div className="flex items-center gap-1.5 text-xs font-semibold text-white/90">
+                <Sparkles size={13} className="text-emerald-400" />
+                <span>Single Master Account</span>
+              </div>
+              <p className="text-[11px] text-white/50 mt-1 leading-relaxed">
+                Connects Sunny Kumar's Master Portfolio, AI signals, & Ethereum Smart Contract identity.
+              </p>
+            </div>
+            <button
+              type="button"
+              onClick={handleQuickMasterLogin}
+              disabled={loading}
+              className="px-3 py-1.5 rounded-lg text-xs font-bold transition-all shadow-sm flex items-center gap-1 flex-shrink-0 bg-emerald-400 text-obsidian-950 hover:bg-emerald-300"
+            >
+              <ShieldCheck size={13} />
+              1-Click Login
+            </button>
+          </div>
+        </div>
+
         <h2
           className="text-2xl font-bold text-white/90 mb-1"
           style={{ fontFamily: "'Syne', sans-serif" }}
         >
-          Welcome back
+          Sign In
         </h2>
-        <p className="text-sm text-white/40 mb-6">Sign in to your trading dashboard</p>
+        <p className="text-xs text-white/40 mb-6">Access your secure stock & blockchain dashboard</p>
 
-        {/* Error */}
+        {/* Error message alert */}
         {error && (
           <div
-            className="flex items-center gap-2 px-3 py-2.5 rounded-lg mb-4 text-sm"
-            style={{ background: "rgba(255,69,96,0.1)", border: "1px solid rgba(255,69,96,0.3)", color: "#ff4560" }}
+            className="flex items-center gap-2 px-3 py-2.5 rounded-lg mb-4 text-sm border"
+            style={{
+              background: "rgba(255,69,96,0.1)",
+              borderColor: "rgba(255,69,96,0.3)",
+              color: "#ff4560",
+            }}
           >
-            <AlertCircle size={14} />
-            {error}
+            <AlertCircle size={15} className="flex-shrink-0" />
+            <span className="text-xs leading-relaxed">{error}</span>
           </div>
         )}
 
@@ -129,7 +202,7 @@ export default function Login() {
                 name="email"
                 value={form.email}
                 onChange={handleChange}
-                placeholder="alex@example.com"
+                placeholder="admin@securestock.ai"
                 required
                 className="input-dark w-full pl-9 pr-4 py-3 rounded-lg text-sm"
               />
@@ -153,14 +226,15 @@ export default function Login() {
               <button
                 type="button"
                 onClick={() => setShowPass((v) => !v)}
-                className="absolute right-3 top-1/2 -translate-y-1/2 text-white/30 hover:text-white/60 transition-colors"
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-white/30 hover:text-white/70 transition-colors"
+                title={showPass ? "Hide password" : "Show password"}
               >
                 {showPass ? <EyeOff size={14} /> : <Eye size={14} />}
               </button>
             </div>
           </div>
 
-          {/* Remember me + Forgot */}
+          {/* Remember me + Forgot password */}
           <div className="flex items-center justify-between">
             <label className="flex items-center gap-2 cursor-pointer">
               <input
@@ -168,21 +242,19 @@ export default function Login() {
                 name="remember"
                 checked={form.remember}
                 onChange={handleChange}
-                className="w-4 h-4 rounded accent-cyan-400"
-                style={{ accentColor: "#00ffd1" }}
+                className="w-4 h-4 rounded accent-emerald-400"
               />
               <span className="text-xs text-white/50">Remember me</span>
             </label>
             <Link
               to="/forgot-password"
-              className="text-xs hover:underline transition-colors"
-              style={{ color: "#00ffd1" }}
+              className="text-xs text-emerald-400 hover:underline transition-colors"
             >
               Forgot password?
             </Link>
           </div>
 
-          {/* Submit */}
+          {/* Submit button */}
           <button
             type="submit"
             disabled={loading}
@@ -196,23 +268,25 @@ export default function Login() {
                 </svg>
                 Authenticating…
               </span>
-            ) : "Sign In"}
+            ) : (
+              "Sign In to Account"
+            )}
           </button>
         </form>
 
         <p className="text-center text-sm text-white/40 mt-6">
           Don't have an account?{" "}
-          <Link to="/signup" className="hover:underline font-semibold" style={{ color: "#00ffd1" }}>
+          <Link to="/signup" className="text-emerald-400 hover:underline font-semibold">
             Create account
           </Link>
         </p>
 
-        {/* Demo hint */}
+        {/* Demo credentials info */}
         <div
-          className="mt-4 px-3 py-2 rounded-lg text-center text-xs text-white/30"
-          style={{ background: "rgba(255,255,255,0.03)", fontFamily: "'DM Mono', monospace" }}
+          className="mt-4 px-3 py-2.5 rounded-lg text-center text-xs text-white/40 border border-white/5"
+          style={{ background: "rgba(255,255,255,0.02)", fontFamily: "'DM Mono', monospace" }}
         >
-          Demo: any email + password works
+          Master Login: <span className="text-white/80">admin@securestock.ai</span> / <span className="text-white/80">admin123</span>
         </div>
       </div>
     </div>
