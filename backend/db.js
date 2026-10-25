@@ -1,12 +1,16 @@
 import fs from "fs";
 import path from "path";
+import os from "os";
 import crypto from "crypto";
 import { fileURLToPath } from "url";
 import bcrypt from "bcryptjs";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const DB_FILE = path.join(__dirname, "data", "db.json");
+const SEED_FILE = path.join(__dirname, "data", "db.json");
+const DB_FILE = process.env.VERCEL
+  ? path.join(os.tmpdir(), "db.json")
+  : SEED_FILE;
 
 // Password hashing & verification helpers (bcrypt salt rounds = 12)
 export function hashPassword(plainText) {
@@ -458,6 +462,10 @@ class Database {
       if (fs.existsSync(DB_FILE)) {
         const raw = fs.readFileSync(DB_FILE, "utf-8");
         this.data = JSON.parse(raw);
+      } else if (fs.existsSync(SEED_FILE)) {
+        const raw = fs.readFileSync(SEED_FILE, "utf-8");
+        this.data = JSON.parse(raw);
+        this.save();
       } else {
         this.data = generateInitialData();
         this.save();
@@ -471,6 +479,8 @@ class Database {
 
   save() {
     try {
+      const dir = path.dirname(DB_FILE);
+      if (!fs.existsSync(dir)) fs.mkdirSync(dir, { recursive: true });
       fs.writeFileSync(DB_FILE, JSON.stringify(this.data, null, 2), "utf-8");
     } catch (e) {
       console.error("Error saving database:", e);
